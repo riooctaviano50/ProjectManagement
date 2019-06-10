@@ -13,5 +13,5 @@ D:\Rio\Tugas WPF\ProjectManagement\Project Management WPF\ProjectManagement_WPF\
 D:\Rio\Tugas WPF\ProjectManagement\Project Management WPF\ProjectManagement_WPF\DataAccess\obj\Debug\DataAccess.csproj.CopyComplete
 D:\Rio\Tugas WPF\ProjectManagement\Project Management WPF\ProjectManagement_WPF\DataAccess\obj\Debug\DataAccess.exe
 D:\Rio\Tugas WPF\ProjectManagement\Project Management WPF\ProjectManagement_WPF\DataAccess\obj\Debug\DataAccess.pdb
-D:\Rio\Tugas WPF\ProjectManagement\Project Management WPF\ProjectManagement_WPF\DataAccess\obj\Debug\DataAccess.Migrations.ModelProjectTask.resources
+D:\Rio\Tugas WPF\ProjectManagement\Project Management WPF\ProjectManagement_WPF\DataAccess\obj\Debug\DataAccess.Migrations.ModelTasks.resources
 D:\Rio\Tugas WPF\ProjectManagement\Project Management WPF\ProjectManagement_WPF\DataAccess\obj\Debug\DataAccess.csproj.GenerateResource.cache

@@ -19,6 +19,7 @@ namespace DataAccess.Models
 
         [ForeignKey("Rules")]
         public int Rules_Id { get; set; }
+        
 
         public Employee() { }
 
@@ -33,6 +34,7 @@ namespace DataAccess.Models
 
         public void Update(int id, EmployeeVM employeeVM)
         {
+            this.Id = id;
             this.Name = employeeVM.Name;
             this.Email = employeeVM.Email;
             this.Password = employeeVM.Password;
