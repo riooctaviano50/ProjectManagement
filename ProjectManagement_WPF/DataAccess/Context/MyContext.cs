@@ -11,6 +11,8 @@ namespace DataAccess.Context
     public class MyContext : DbContext
     {
         public MyContext() : base("MyContext") { }
-        public DbSet<Employee> Employees { get; set; }
+
+        public DbSet<Status> Statuses { get; set; }
+        public DbSet<Project> Projects { get; set; }
     }
 }
