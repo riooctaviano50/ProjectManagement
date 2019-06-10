@@ -1,0 +1,9 @@
+D:\MII\PROJECT MANAGEMENT\ProjectManagement\ProjectManagement_WPF\Core\bin\Debug\Core.exe.config
+D:\MII\PROJECT MANAGEMENT\ProjectManagement\ProjectManagement_WPF\Core\bin\Debug\Core.exe
+D:\MII\PROJECT MANAGEMENT\ProjectManagement\ProjectManagement_WPF\Core\bin\Debug\Core.pdb
+D:\MII\PROJECT MANAGEMENT\ProjectManagement\ProjectManagement_WPF\Core\bin\Debug\EntityFramework.dll
+D:\MII\PROJECT MANAGEMENT\ProjectManagement\ProjectManagement_WPF\Core\bin\Debug\EntityFramework.SqlServer.dll
+D:\MII\PROJECT MANAGEMENT\ProjectManagement\ProjectManagement_WPF\Core\bin\Debug\EntityFramework.xml
+D:\MII\PROJECT MANAGEMENT\ProjectManagement\ProjectManagement_WPF\Core\bin\Debug\EntityFramework.SqlServer.xml
+D:\MII\PROJECT MANAGEMENT\ProjectManagement\ProjectManagement_WPF\Core\obj\Debug\Core.exe
+D:\MII\PROJECT MANAGEMENT\ProjectManagement\ProjectManagement_WPF\Core\obj\Debug\Core.pdb
