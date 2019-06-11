@@ -15,8 +15,18 @@ D:\Rio\Tugas WPF\ProjectManagement\Project Management WPF\ProjectManagement_WPF\
 D:\Rio\Tugas WPF\ProjectManagement\Project Management WPF\ProjectManagement_WPF\DataAccess\obj\Debug\DataAccess.pdb
 D:\Rio\Tugas WPF\ProjectManagement\Project Management WPF\ProjectManagement_WPF\DataAccess\obj\Debug\DataAccess.Migrations.ModelProjectTask.resources
 D:\Rio\Tugas WPF\ProjectManagement\Project Management WPF\ProjectManagement_WPF\DataAccess\obj\Debug\DataAccess.csproj.GenerateResource.cache
+D:\MII\PROJECT MANAGEMENT\ProjectManagement\ProjectManagement_WPF\DataAccess\bin\Debug\DataAccess.exe.config
+D:\MII\PROJECT MANAGEMENT\ProjectManagement\ProjectManagement_WPF\DataAccess\bin\Debug\DataAccess.exe
+D:\MII\PROJECT MANAGEMENT\ProjectManagement\ProjectManagement_WPF\DataAccess\bin\Debug\DataAccess.pdb
+D:\MII\PROJECT MANAGEMENT\ProjectManagement\ProjectManagement_WPF\DataAccess\bin\Debug\Core.exe
+D:\MII\PROJECT MANAGEMENT\ProjectManagement\ProjectManagement_WPF\DataAccess\bin\Debug\EntityFramework.dll
+D:\MII\PROJECT MANAGEMENT\ProjectManagement\ProjectManagement_WPF\DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+D:\MII\PROJECT MANAGEMENT\ProjectManagement\ProjectManagement_WPF\DataAccess\bin\Debug\Core.pdb
+D:\MII\PROJECT MANAGEMENT\ProjectManagement\ProjectManagement_WPF\DataAccess\bin\Debug\EntityFramework.xml
+D:\MII\PROJECT MANAGEMENT\ProjectManagement\ProjectManagement_WPF\DataAccess\bin\Debug\EntityFramework.SqlServer.xml
 D:\MII\PROJECT MANAGEMENT\ProjectManagement\ProjectManagement_WPF\DataAccess\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache
 D:\MII\PROJECT MANAGEMENT\ProjectManagement\ProjectManagement_WPF\DataAccess\obj\Debug\DataAccess.Migrations.ModelProjectTask.resources
 D:\MII\PROJECT MANAGEMENT\ProjectManagement\ProjectManagement_WPF\DataAccess\obj\Debug\DataAccess.csproj.GenerateResource.Cache
 D:\MII\PROJECT MANAGEMENT\ProjectManagement\ProjectManagement_WPF\DataAccess\obj\Debug\DataAccess.exe
 D:\MII\PROJECT MANAGEMENT\ProjectManagement\ProjectManagement_WPF\DataAccess\obj\Debug\DataAccess.pdb
+D:\MII\PROJECT MANAGEMENT\ProjectManagement\ProjectManagement_WPF\DataAccess\obj\Debug\DataAccess.Migrations.adding.resources

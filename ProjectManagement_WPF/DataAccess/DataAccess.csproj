@@ -55,6 +55,10 @@
     <Compile Include="Migrations\201906100448466_ModelProjectTask.Designer.cs">
       <DependentUpon>201906100448466_ModelProjectTask.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201906110120006_adding.cs" />
+    <Compile Include="Migrations\201906110120006_adding.Designer.cs">
+      <DependentUpon>201906110120006_adding.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Employee.cs" />
     <Compile Include="Models\Project.cs" />
@@ -74,6 +78,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201906100448466_ModelProjectTask.resx">
       <DependentUpon>201906100448466_ModelProjectTask.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201906110120006_adding.resx">
+      <DependentUpon>201906110120006_adding.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
