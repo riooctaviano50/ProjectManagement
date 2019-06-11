@@ -51,26 +51,36 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Context\MyContext.cs" />
-    <Compile Include="Migrations\201906100448466_ModelProjectTask.cs" />
-    <Compile Include="Migrations\201906100448466_ModelProjectTask.Designer.cs">
-      <DependentUpon>201906100448466_ModelProjectTask.cs</DependentUpon>
-    </Compile>
     <Compile Include="Migrations\201906101516090_AddingReplyandTicket.cs" />
     <Compile Include="Migrations\201906101516090_AddingReplyandTicket.Designer.cs">
       <DependentUpon>201906101516090_AddingReplyandTicket.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201906110216579_AllModelComplete.cs" />
+    <Compile Include="Migrations\201906110216579_AllModelComplete.Designer.cs">
+      <DependentUpon>201906110216579_AllModelComplete.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201906110252001_ModelTask.cs" />
+    <Compile Include="Migrations\201906110252001_ModelTask.Designer.cs">
+      <DependentUpon>201906110252001_ModelTask.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Models\Employee.cs" />
     <Compile Include="Models\Project.cs" />
     <Compile Include="Models\ProjectMember.cs" />
     <Compile Include="Models\Replies.cs" />
+    <Compile Include="Models\Rule.cs" />
     <Compile Include="Models\Status.cs" />
+    <Compile Include="Models\Task.cs" />
     <Compile Include="Models\Ticket.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ViewModels\EmployeeVM.cs" />
     <Compile Include="ViewModels\ProjectMemberVM.cs" />
     <Compile Include="ViewModels\ProjectVM.cs" />
     <Compile Include="ViewModels\RepliesVM.cs" />
+    <Compile Include="ViewModels\RuleVM.cs" />
     <Compile Include="ViewModels\StatusVM.cs" />
+    <Compile Include="ViewModels\TaskVM.cs" />
     <Compile Include="ViewModels\TicketVM.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -78,18 +88,21 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201906100448466_ModelProjectTask.resx">
-      <DependentUpon>201906100448466_ModelProjectTask.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201906101516090_AddingReplyandTicket.resx">
-      <DependentUpon>201906101516090_AddingReplyandTicket.cs</DependentUpon>
-    </EmbeddedResource>
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\Core\Core.csproj">
       <Project>{4740C14A-290C-4971-95DD-78BD1F485BF2}</Project>
       <Name>Core</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201906101516090_AddingReplyandTicket.resx">
+      <DependentUpon>201906101516090_AddingReplyandTicket.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201906110216579_AllModelComplete.resx">
+      <DependentUpon>201906110216579_AllModelComplete.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201906110252001_ModelTask.resx">
+      <DependentUpon>201906110252001_ModelTask.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

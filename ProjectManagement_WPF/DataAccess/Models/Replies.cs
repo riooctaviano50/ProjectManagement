@@ -31,7 +31,6 @@ namespace DataAccess.Models
             this.Id = id;
             this.Message = repliesVM.Message;
             this.Reply_From = repliesVM.Reply_From;
-            this.Ticket_Id = repliesVM.Ticket_Id;
             this.UpdateDate = DateTimeOffset.Now.ToLocalTime();
         }
         public void Delete()
