@@ -1,13 +1,3 @@
-D:\MII\PROJECT MANAGEMENT\ProjectManagement\ProjectManagement_WPF\BussinessLogic\bin\Debug\BussinessLogic.exe.config
-D:\MII\PROJECT MANAGEMENT\ProjectManagement\ProjectManagement_WPF\BussinessLogic\bin\Debug\BussinessLogic.exe
-D:\MII\PROJECT MANAGEMENT\ProjectManagement\ProjectManagement_WPF\BussinessLogic\bin\Debug\BussinessLogic.pdb
-D:\MII\PROJECT MANAGEMENT\ProjectManagement\ProjectManagement_WPF\BussinessLogic\bin\Debug\EntityFramework.dll
-D:\MII\PROJECT MANAGEMENT\ProjectManagement\ProjectManagement_WPF\BussinessLogic\bin\Debug\EntityFramework.SqlServer.dll
-D:\MII\PROJECT MANAGEMENT\ProjectManagement\ProjectManagement_WPF\BussinessLogic\bin\Debug\EntityFramework.xml
-D:\MII\PROJECT MANAGEMENT\ProjectManagement\ProjectManagement_WPF\BussinessLogic\bin\Debug\EntityFramework.SqlServer.xml
-D:\MII\PROJECT MANAGEMENT\ProjectManagement\ProjectManagement_WPF\BussinessLogic\obj\Debug\BussinessLogic.csprojResolveAssemblyReference.cache
-D:\MII\PROJECT MANAGEMENT\ProjectManagement\ProjectManagement_WPF\BussinessLogic\obj\Debug\BussinessLogic.exe
-D:\MII\PROJECT MANAGEMENT\ProjectManagement\ProjectManagement_WPF\BussinessLogic\obj\Debug\BussinessLogic.pdb
 D:\Rio\Tugas WPF\ProjectManagement\Project Management WPF\ProjectManagement_WPF\BussinessLogic\bin\Debug\BussinessLogic.exe.config
 D:\Rio\Tugas WPF\ProjectManagement\Project Management WPF\ProjectManagement_WPF\BussinessLogic\bin\Debug\BussinessLogic.exe
 D:\Rio\Tugas WPF\ProjectManagement\Project Management WPF\ProjectManagement_WPF\BussinessLogic\bin\Debug\BussinessLogic.pdb
@@ -20,3 +10,13 @@ D:\Rio\Tugas WPF\ProjectManagement\Project Management WPF\ProjectManagement_WPF\
 D:\Rio\Tugas WPF\ProjectManagement\Project Management WPF\ProjectManagement_WPF\BussinessLogic\obj\Debug\BussinessLogic.csproj.CopyComplete
 D:\Rio\Tugas WPF\ProjectManagement\Project Management WPF\ProjectManagement_WPF\BussinessLogic\obj\Debug\BussinessLogic.exe
 D:\Rio\Tugas WPF\ProjectManagement\Project Management WPF\ProjectManagement_WPF\BussinessLogic\obj\Debug\BussinessLogic.pdb
+D:\MII\PROJECT MANAGEMENT\ProjectManagement\ProjectManagement_WPF\BussinessLogic\bin\Debug\BussinessLogic.exe.config
+D:\MII\PROJECT MANAGEMENT\ProjectManagement\ProjectManagement_WPF\BussinessLogic\bin\Debug\BussinessLogic.exe
+D:\MII\PROJECT MANAGEMENT\ProjectManagement\ProjectManagement_WPF\BussinessLogic\bin\Debug\BussinessLogic.pdb
+D:\MII\PROJECT MANAGEMENT\ProjectManagement\ProjectManagement_WPF\BussinessLogic\bin\Debug\EntityFramework.dll
+D:\MII\PROJECT MANAGEMENT\ProjectManagement\ProjectManagement_WPF\BussinessLogic\bin\Debug\EntityFramework.SqlServer.dll
+D:\MII\PROJECT MANAGEMENT\ProjectManagement\ProjectManagement_WPF\BussinessLogic\bin\Debug\EntityFramework.xml
+D:\MII\PROJECT MANAGEMENT\ProjectManagement\ProjectManagement_WPF\BussinessLogic\bin\Debug\EntityFramework.SqlServer.xml
+D:\MII\PROJECT MANAGEMENT\ProjectManagement\ProjectManagement_WPF\BussinessLogic\obj\Debug\BussinessLogic.csprojResolveAssemblyReference.cache
+D:\MII\PROJECT MANAGEMENT\ProjectManagement\ProjectManagement_WPF\BussinessLogic\obj\Debug\BussinessLogic.exe
+D:\MII\PROJECT MANAGEMENT\ProjectManagement\ProjectManagement_WPF\BussinessLogic\obj\Debug\BussinessLogic.pdb

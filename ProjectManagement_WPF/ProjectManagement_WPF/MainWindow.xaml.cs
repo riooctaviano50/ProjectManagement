@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Data.SqlClient;
 using System.Linq;
+using System.Net.Mail;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
@@ -19,6 +20,7 @@ using System.Windows.Shapes;
 
 namespace ProjectManagement_WPF
 {
+
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
@@ -29,34 +31,51 @@ namespace ProjectManagement_WPF
             InitializeComponent();
         }
 
-        private void btn_SignIn_Click(object sender, AsyncCompletedEventArgs e)
+        private void btn_SignIn_Click(object sender, RoutedEventArgs e)
         {
-            if (txb_email.Text.Length == 0)
+            int flag = 0;
+
+            if (txb_email.Text.Trim().Length == 0)
             {
-                MessageBox.Show(string.Format("{0} send canceled.", e.UserState), "Message", MessageBoxButton.OK, MessageBoxImage.Error);
+                flag = 0;
+                txb_email.Text = "Required";
+                txb_email.Focus();
             }
             else if (!Regex.IsMatch(txb_email.Text, @"^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}"))
             {
-                MessageBox.Show("Your Message has been successfully sent.", "Message", MessageBoxButton.OK, MessageBoxImage.Information);
+                flag = 0;
+                txb_email.Text = "Invalid";
+                txb_email.Focus();
             }
             else
             {
-                string email = txb_email.Text;
-                string password = passwordBox.Password;
-                SqlConnection con = new SqlConnection("data source = DEWIPRILIANI; initial catalog = ProjectManagement;integrated security = true");
-                con.Open();
-                SqlCommand cmd = new SqlCommand("select * from Registration where Email = '" + email + "'  and password='" + password + "'", con);
-                cmd.CommandType = CommandType.Text;  
-                SqlDataAdapter adapter = new SqlDataAdapter();  
-                adapter.SelectCommand = cmd;  
-                DataSet dataSet = new DataSet();  
-                adapter.Fill(dataSet);
-
-                MessageBox.Show("Sorry! Please enter existing emailid/password.", "Message", MessageBoxButton.OK, MessageBoxImage.Information);
+                flag = 1;
+                txb_email.Text = "";
+            }
+            if (passwordBox.Password.Trim().Length == 0)
+            {
+                flag = 0;
+                passwordBox.Password = "Required";
                 passwordBox.Focus();
+            }
+            if (flag == 1)
+            {
                 
-
             }
         }
+
+
+
+        private void SendCompletedCallback(object sender, AsyncCompletedEventArgs e)
+        {
+            if (e.Cancelled)
+                MessageBox.Show(string.Format("{0} send canceled.", e.UserState), "Message", MessageBoxButton.OK, MessageBoxImage.Information);
+            if (e.Error != null)
+                MessageBox.Show(string.Format("{0} {1}", e.UserState, e.Error), "Message", MessageBoxButton.OK, MessageBoxImage.Information);
+            else
+                MessageBox.Show("Your Message has been successfully sent.", "Message", MessageBoxButton.OK, MessageBoxImage.Information);
+        }
     }
-}
+
+        
+    }

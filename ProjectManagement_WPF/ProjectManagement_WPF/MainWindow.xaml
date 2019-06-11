@@ -14,10 +14,14 @@
         <Label x:Name="label2" Content="Email" HorizontalAlignment="Left" Margin="528,142,0,0" VerticalAlignment="Top" Foreground="#FFF6FBFA" FontSize="14"/>
         <TextBox x:Name="txb_email" HorizontalAlignment="Left" Height="23" Margin="532,171,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="215"/>
         <Label x:Name="label3" Content="Password" HorizontalAlignment="Left" Margin="528,196,0,0" VerticalAlignment="Top" FontSize="14" Foreground="#FFF6FBFA"/>
-        <Button x:Name="btn_SignIn" Content="Sign In" HorizontalAlignment="Left" Margin="532,266,0,0" VerticalAlignment="Top" Width="215" Height="22" Click="btn_SignIn_Click"/>
-        <Label x:Name="label4" Content="MII" HorizontalAlignment="Left" Margin="201,139,0,0" VerticalAlignment="Top" FontSize="36" FontFamily="Comic Sans MS" FontWeight="Bold"/>
-        <Label x:Name="label5" Content="Project Management Application" HorizontalAlignment="Left" Margin="57,198,0,0" VerticalAlignment="Top" FontFamily="Comic Sans MS" FontSize="24" FontWeight="Bold"/>
+        <Button x:Name="btn_SignIn" Content="Sign In" HorizontalAlignment="Left" Margin="532,266,0,0" VerticalAlignment="Top" Width="215" Height="22" Click="btn_SignIn_Click_2"/>
+        <Label x:Name="label5" Content="Project Management Application" HorizontalAlignment="Left" Margin="57,208,0,0" VerticalAlignment="Top" FontFamily="Comic Sans MS" FontSize="24" FontWeight="Bold"/>
         <PasswordBox x:Name="passwordBox" HorizontalAlignment="Left" Margin="532,225,0,0" VerticalAlignment="Top" Height="25" Width="215"/>
+        <Image Margin="145,77,449,215">
+            <Image.Source>
+                <BitmapImage DecodePixelWidth="300" UriSource="/images/logo MII.png" />
+            </Image.Source>
+        </Image>
 
     </Grid>
 </Window>
