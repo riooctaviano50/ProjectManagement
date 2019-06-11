@@ -62,6 +62,10 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Common\Common.csproj">
+      <Project>{1c99afb2-1335-48a8-9e99-92f4ada659fc}</Project>
+      <Name>Common</Name>
+    </ProjectReference>
     <ProjectReference Include="..\DataAccess\DataAccess.csproj">
       <Project>{618889DE-74C9-4FB0-8B04-6C5CC6B00441}</Project>
       <Name>DataAccess</Name>
