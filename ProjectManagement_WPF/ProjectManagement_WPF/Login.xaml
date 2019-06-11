@@ -1,0 +1,26 @@
+﻿<Window x:Class="ProjectManagement_WPF.Login"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ProjectManagement_WPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Rectangle Fill="#FFF4F4F5" HorizontalAlignment="Left" Height="419" Stroke="Black" VerticalAlignment="Top" Width="489" />
+        <Label x:Name="label" Content="Label" HorizontalAlignment="Left" Height="100" Margin="424,482,0,-163" VerticalAlignment="Top"/>
+        <Rectangle Fill="#013243" HorizontalAlignment="Left" Height="419" Margin="489,0,0,0" Stroke="Black" VerticalAlignment="Top" Width="303"/>
+        <Label x:Name="label1" Content="MII" HorizontalAlignment="Left" Foreground="#FFF6FBFA" Margin="611,74,0,0" VerticalAlignment="Top" FontSize="20" FontFamily="Comic Sans MS"/>
+        <Label x:Name="label2" Content="Email" HorizontalAlignment="Left" Margin="528,142,0,0" VerticalAlignment="Top" Foreground="#FFF6FBFA" FontSize="14"/>
+        <TextBox x:Name="txb_email" HorizontalAlignment="Left" Height="23" Margin="532,171,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="215"/>
+        <Label x:Name="label3" Content="Password" HorizontalAlignment="Left" Margin="528,196,0,0" VerticalAlignment="Top" FontSize="14" Foreground="#FFF6FBFA"/>
+        <Button x:Name="btn_SignIn" Content="Sign In" HorizontalAlignment="Left" Margin="532,266,0,0" VerticalAlignment="Top" Width="215" Height="22" />
+        <Label x:Name="label5" Content="Project Management Application" HorizontalAlignment="Left" Margin="57,198,0,0" VerticalAlignment="Top" FontFamily="Comic Sans MS" FontSize="24" FontWeight="Bold"/>
+        <PasswordBox x:Name="passwordBox" HorizontalAlignment="Left" Margin="532,225,0,0" VerticalAlignment="Top" Height="25" Width="215"/>
+        <Image Margin="167,74,476,213">
+            <Image.Source>
+                <BitmapImage DecodePixelWidth="300" UriSource="/images/logo MII.png" />
+            </Image.Source>
+        </Image>
+    </Grid>
+</Window>
