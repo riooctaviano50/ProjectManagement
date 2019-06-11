@@ -29,7 +29,6 @@ namespace DataAccess.Models
             this.Email = employeeVM.Email;
             this.Password = employeeVM.Password;
             this.User_Id = employeeVM.User_Id;
-            this.Rules_Id = employeeVM.Rules_Id;
         }
 
         public void Update(int id, EmployeeVM employeeVM)
@@ -39,7 +38,6 @@ namespace DataAccess.Models
             this.Email = employeeVM.Email;
             this.Password = employeeVM.Password;
             this.User_Id = employeeVM.User_Id;
-            this.Rules_Id = employeeVM.Rules_Id;
         }
 
         public void Delete()

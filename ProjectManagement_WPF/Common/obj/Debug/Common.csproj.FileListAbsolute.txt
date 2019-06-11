@@ -1,1 +1,3 @@
 D:\MII\PROJECT MANAGEMENT\ProjectManagement\ProjectManagement_WPF\Common\obj\Debug\Common.csprojResolveAssemblyReference.cache
+D:\Rio\Tugas WPF\ProjectManagement\Project Management WPF\ProjectManagement_WPF\Common\obj\Debug\Common.csprojAssemblyReference.cache
+D:\Rio\Tugas WPF\ProjectManagement\Project Management WPF\ProjectManagement_WPF\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
