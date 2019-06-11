@@ -7,13 +7,13 @@ namespace DataAccess.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.2.0-61023")]
-    public sealed partial class ModelProjectTask : IMigrationMetadata
+    public sealed partial class ModelTasks : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(ModelProjectTask));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(ModelTasks));
         
         string IMigrationMetadata.Id
         {
-            get { return "201906100448466_ModelProjectTask"; }
+            get { return "201906100956001_ModelTasks"; }
         }
         
         string IMigrationMetadata.Source
