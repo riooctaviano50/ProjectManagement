@@ -72,3 +72,32 @@ D:\Rio\Tugas WPF\ProjectManagement\Project Management WPF\ProjectManagement_WPF\
 D:\Rio\Tugas WPF\ProjectManagement\Project Management WPF\ProjectManagement_WPF\ProjectManagement_WPF\obj\Debug\ProjectManagement_WPF.exe
 D:\Rio\Tugas WPF\ProjectManagement\Project Management WPF\ProjectManagement_WPF\ProjectManagement_WPF\obj\Debug\MenuPM\ProjectDetailsPM.g.cs
 D:\Rio\Tugas WPF\ProjectManagement\Project Management WPF\ProjectManagement_WPF\ProjectManagement_WPF\obj\Debug\MenuPM\ProjectDetailsPM.baml
+D:\backup\ProjectManagement_WPF\ProjectManagement_WPF\bin\Debug\ProjectManagement_WPF.exe.config
+D:\backup\ProjectManagement_WPF\ProjectManagement_WPF\bin\Debug\ProjectManagement_WPF.exe
+D:\backup\ProjectManagement_WPF\ProjectManagement_WPF\bin\Debug\ProjectManagement_WPF.pdb
+D:\backup\ProjectManagement_WPF\ProjectManagement_WPF\bin\Debug\EntityFramework.dll
+D:\backup\ProjectManagement_WPF\ProjectManagement_WPF\bin\Debug\EntityFramework.SqlServer.dll
+D:\backup\ProjectManagement_WPF\ProjectManagement_WPF\bin\Debug\MaterialDesignColors.dll
+D:\backup\ProjectManagement_WPF\ProjectManagement_WPF\bin\Debug\MaterialDesignThemes.Wpf.dll
+D:\backup\ProjectManagement_WPF\ProjectManagement_WPF\bin\Debug\EntityFramework.xml
+D:\backup\ProjectManagement_WPF\ProjectManagement_WPF\bin\Debug\EntityFramework.SqlServer.xml
+D:\backup\ProjectManagement_WPF\ProjectManagement_WPF\bin\Debug\MaterialDesignThemes.Wpf.pdb
+D:\backup\ProjectManagement_WPF\ProjectManagement_WPF\bin\Debug\MaterialDesignThemes.Wpf.xml
+D:\backup\ProjectManagement_WPF\ProjectManagement_WPF\obj\Debug\ProjectManagement_WPF.csprojAssemblyReference.cache
+D:\backup\ProjectManagement_WPF\ProjectManagement_WPF\obj\Debug\MenuPM\ProjectDetailsPM.g.cs
+D:\backup\ProjectManagement_WPF\ProjectManagement_WPF\obj\Debug\MenuPM\TaskPM.g.cs
+D:\backup\ProjectManagement_WPF\ProjectManagement_WPF\obj\Debug\ProjectManager.g.cs
+D:\backup\ProjectManagement_WPF\ProjectManagement_WPF\obj\Debug\App.g.cs
+D:\backup\ProjectManagement_WPF\ProjectManagement_WPF\obj\Debug\ProjectManagement_WPF_MarkupCompile.cache
+D:\backup\ProjectManagement_WPF\ProjectManagement_WPF\obj\Debug\ProjectManagement_WPF_MarkupCompile.lref
+D:\backup\ProjectManagement_WPF\ProjectManagement_WPF\obj\Debug\App.baml
+D:\backup\ProjectManagement_WPF\ProjectManagement_WPF\obj\Debug\MenuPM\ProjectDetailsPM.baml
+D:\backup\ProjectManagement_WPF\ProjectManagement_WPF\obj\Debug\MenuPM\TaskPM.baml
+D:\backup\ProjectManagement_WPF\ProjectManagement_WPF\obj\Debug\ProjectManager.baml
+D:\backup\ProjectManagement_WPF\ProjectManagement_WPF\obj\Debug\ProjectManagement_WPF.g.resources
+D:\backup\ProjectManagement_WPF\ProjectManagement_WPF\obj\Debug\ProjectManagement_WPF.Properties.Resources.resources
+D:\backup\ProjectManagement_WPF\ProjectManagement_WPF\obj\Debug\ProjectManagement_WPF.csproj.GenerateResource.cache
+D:\backup\ProjectManagement_WPF\ProjectManagement_WPF\obj\Debug\ProjectManagement_WPF.csproj.CoreCompileInputs.cache
+D:\backup\ProjectManagement_WPF\ProjectManagement_WPF\obj\Debug\ProjectManagement_WPF.csproj.CopyComplete
+D:\backup\ProjectManagement_WPF\ProjectManagement_WPF\obj\Debug\ProjectManagement_WPF.exe
+D:\backup\ProjectManagement_WPF\ProjectManagement_WPF\obj\Debug\ProjectManagement_WPF.pdb
