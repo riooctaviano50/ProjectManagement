@@ -55,13 +55,13 @@
     <Compile Include="Migrations\201906101516090_AddingReplyandTicket.Designer.cs">
       <DependentUpon>201906101516090_AddingReplyandTicket.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201906110216579_AllModelComplete.cs" />
-    <Compile Include="Migrations\201906110216579_AllModelComplete.Designer.cs">
-      <DependentUpon>201906110216579_AllModelComplete.cs</DependentUpon>
+    <Compile Include="Migrations\201906120128102_AllModelComplete.cs" />
+    <Compile Include="Migrations\201906120128102_AllModelComplete.Designer.cs">
+      <DependentUpon>201906120128102_AllModelComplete.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201906110252001_ModelTask.cs" />
-    <Compile Include="Migrations\201906110252001_ModelTask.Designer.cs">
-      <DependentUpon>201906110252001_ModelTask.cs</DependentUpon>
+    <Compile Include="Migrations\201906120623293_ProjectMemberRevision.cs" />
+    <Compile Include="Migrations\201906120623293_ProjectMemberRevision.Designer.cs">
+      <DependentUpon>201906120623293_ProjectMemberRevision.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Employee.cs" />
@@ -97,11 +97,11 @@
     <EmbeddedResource Include="Migrations\201906101516090_AddingReplyandTicket.resx">
       <DependentUpon>201906101516090_AddingReplyandTicket.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201906110216579_AllModelComplete.resx">
-      <DependentUpon>201906110216579_AllModelComplete.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201906120128102_AllModelComplete.resx">
+      <DependentUpon>201906120128102_AllModelComplete.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201906110252001_ModelTask.resx">
-      <DependentUpon>201906110252001_ModelTask.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201906120623293_ProjectMemberRevision.resx">
+      <DependentUpon>201906120623293_ProjectMemberRevision.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

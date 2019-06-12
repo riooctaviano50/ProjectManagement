@@ -12,12 +12,16 @@ namespace DataAccess.Models
     [Table("TB_T_ProjectMember")]
     public class ProjectMember : BaseModel
     {
+        [ForeignKey("Project")]
         public int Project_Id { get; set; }
+        public Project Project { get; set; }
+
         public int User_Id { get; set; }
 
         [ForeignKey("Rule")]
         public int Rules_Id { get; set; }
-        public Ticket Ticket { get; set; }
+        //public Ticket Ticket { get; set; }
+        public Rule Rule { get; set; }
 
 
         public ProjectMember(ProjectMemberVM projectMemberVM)

@@ -74,12 +74,26 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="MenuMember\CreateProjectMember.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MenuMember\ProjectMember.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="ProjectManager.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="MenuMember\CreateProjectMember.xaml.cs">
+      <DependentUpon>CreateProjectMember.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MenuMember\ProjectMember.xaml.cs">
+      <DependentUpon>ProjectMember.xaml</DependentUpon>
+    </Compile>
     <Compile Include="ProjectManager.xaml.cs">
       <DependentUpon>ProjectManager.xaml</DependentUpon>
     </Compile>
@@ -109,8 +123,12 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Resource Include="images\logo MII.png" />
+    <Resource Include="Image\checklist4.png" />
+    <Resource Include="Image\home.png" />
+    <Resource Include="Image\task2.png" />
+    <Resource Include="Image\timer.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

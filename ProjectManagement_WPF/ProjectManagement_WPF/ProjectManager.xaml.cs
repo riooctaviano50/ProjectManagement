@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ProjectManagement_WPF.MenuMember;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -50,7 +51,8 @@ namespace ProjectManagement_WPF
                     
                     break;
                 case "ItemTask":
-                    
+                    usc = new ProjectMember();
+                    GridMain.Children.Add(usc);
                     break;
 
                 default:
