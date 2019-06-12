@@ -8,12 +8,12 @@ using System.Threading.Tasks;
 
 namespace Common.Repository
 {
-    public interface IStatusRepository
+    public interface IProjectRepository
     {
-        List<Status> Get();
-        Status Get(int id);
-        bool Insert(StatusVM statusVM);
-        bool Update(int id, StatusVM statusVM);
+        List<Project> Get();
+        Project Get(int id);
+        bool Insert(ProjectVM projectVM);
+        bool Update(int id, ProjectVM projectVM);
         bool Delete(int id);
     }
 }

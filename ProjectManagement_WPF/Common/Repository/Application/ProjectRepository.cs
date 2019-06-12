@@ -10,7 +10,7 @@ using DataAccess.ViewModels;
 
 namespace Common.Repository.Application
 {
-    public class StatusRepository : IStatusRepository
+    public class ProjectRepository : IProjectRepository
     {
         MyContext myContext = new MyContext();
         bool status = false;
@@ -31,22 +31,22 @@ namespace Common.Repository.Application
             }
         }
 
-        public List<Status> Get()
+        public List<Project> Get()
         {
-            var get = myContext.Statuses.Where(x => x.IsDelete == false).ToList();
+            var get = myContext.Projects.Include("Employee").Where(x => x.IsDelete == false).ToList();
             return get;
         }
 
-        public Status Get(int id)
+        public Project Get(int id)
         {
-            var get = myContext.Statuses.Find(id);
+            var get = myContext.Projects.Find(id);
             return get;
         }
 
-        public bool Insert(StatusVM statusVM)
+        public bool Insert(ProjectVM projectVM)
         {
-            var push = new Status(statusVM);
-            myContext.Statuses.Add(push);
+            var push = new Project(projectVM);
+            myContext.Projects.Add(push);
             var result = myContext.SaveChanges();
             if (result > 0)
             {
@@ -59,12 +59,14 @@ namespace Common.Repository.Application
             return status;
         }
 
-        public bool Update(int id, StatusVM statusVM)
+        public bool Update(int id, ProjectVM projectVM)
         {
             var get = Get(id);
+            var getStatus = myContext.Statuses.Find(projectVM.Status_Id);
+            get.Status = getStatus;
             if (get != null)
             {
-                get.Update(id, statusVM);
+                get.Update(id, projectVM);
                 myContext.Entry(get).State = EntityState.Modified;
                 myContext.SaveChanges();
                 return true;

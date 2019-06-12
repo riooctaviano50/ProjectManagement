@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-D:\Rio\Tugas WPF\ProjectManagement\Project Management WPF\ProjectManagement_WPF\ProjectManagement_WPF\obj\Debug\
+D:\backup\ProjectManagement_WPF\ProjectManagement_WPF\obj\Debug\
 ProjectManagement_WPF
 none
 false
 DEBUG;TRACE
-D:\Rio\Tugas WPF\ProjectManagement\Project Management WPF\ProjectManagement_WPF\ProjectManagement_WPF\App.xaml
+D:\backup\ProjectManagement_WPF\ProjectManagement_WPF\App.xaml
 3-424021418
 
 7-727227524
-182112981545
+182102201948
 MenuPM\ProjectDetailsPM.xaml;MenuPM\TaskPM.xaml;ProjectManager.xaml;
 
 False

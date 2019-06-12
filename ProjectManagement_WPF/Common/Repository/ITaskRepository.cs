@@ -5,15 +5,16 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Task = DataAccess.Models.Task;
 
 namespace Common.Repository
 {
-    public interface IStatusRepository
+    public interface ITaskRepository
     {
-        List<Status> Get();
-        Status Get(int id);
-        bool Insert(StatusVM statusVM);
-        bool Update(int id, StatusVM statusVM);
+        List<Task> Get();
+        Task Get(int id);
+        bool Insert(TaskVM taskVM);
+        bool Update(int id, TaskVM taskVM);
         bool Delete(int id);
     }
 }

@@ -6,9 +6,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Common.Repository
+namespace BussinessLogic.Service
 {
-    public interface IStatusRepository
+    public interface IStatusService
     {
         List<Status> Get();
         Status Get(int id);
