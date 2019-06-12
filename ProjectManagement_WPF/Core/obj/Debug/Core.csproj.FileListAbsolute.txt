@@ -8,6 +8,16 @@ D:\MII\PROJECT MANAGEMENT\ProjectManagement\ProjectManagement_WPF\Core\bin\Debug
 D:\MII\PROJECT MANAGEMENT\ProjectManagement\ProjectManagement_WPF\Core\obj\Debug\Core.csprojResolveAssemblyReference.cache
 D:\MII\PROJECT MANAGEMENT\ProjectManagement\ProjectManagement_WPF\Core\obj\Debug\Core.exe
 D:\MII\PROJECT MANAGEMENT\ProjectManagement\ProjectManagement_WPF\Core\obj\Debug\Core.pdb
+D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\Tugas Program\start learn mvs\ProjectManagement\ProjectManagement\ProjectManagement_WPF\Core\bin\Debug\Core.exe.config
+D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\Tugas Program\start learn mvs\ProjectManagement\ProjectManagement\ProjectManagement_WPF\Core\bin\Debug\Core.exe
+D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\Tugas Program\start learn mvs\ProjectManagement\ProjectManagement\ProjectManagement_WPF\Core\bin\Debug\Core.pdb
+D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\Tugas Program\start learn mvs\ProjectManagement\ProjectManagement\ProjectManagement_WPF\Core\bin\Debug\EntityFramework.dll
+D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\Tugas Program\start learn mvs\ProjectManagement\ProjectManagement\ProjectManagement_WPF\Core\bin\Debug\EntityFramework.SqlServer.dll
+D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\Tugas Program\start learn mvs\ProjectManagement\ProjectManagement\ProjectManagement_WPF\Core\bin\Debug\EntityFramework.xml
+D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\Tugas Program\start learn mvs\ProjectManagement\ProjectManagement\ProjectManagement_WPF\Core\bin\Debug\EntityFramework.SqlServer.xml
+D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\Tugas Program\start learn mvs\ProjectManagement\ProjectManagement\ProjectManagement_WPF\Core\obj\Debug\Core.csprojResolveAssemblyReference.cache
+D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\Tugas Program\start learn mvs\ProjectManagement\ProjectManagement\ProjectManagement_WPF\Core\obj\Debug\Core.exe
+D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\Tugas Program\start learn mvs\ProjectManagement\ProjectManagement\ProjectManagement_WPF\Core\obj\Debug\Core.pdb
 D:\Rio\Tugas WPF\ProjectManagement\Project Management WPF\ProjectManagement_WPF\Core\bin\Debug\Core.exe.config
 D:\Rio\Tugas WPF\ProjectManagement\Project Management WPF\ProjectManagement_WPF\Core\bin\Debug\Core.exe
 D:\Rio\Tugas WPF\ProjectManagement\Project Management WPF\ProjectManagement_WPF\Core\bin\Debug\Core.pdb
@@ -20,13 +30,3 @@ D:\Rio\Tugas WPF\ProjectManagement\Project Management WPF\ProjectManagement_WPF\
 D:\Rio\Tugas WPF\ProjectManagement\Project Management WPF\ProjectManagement_WPF\Core\obj\Debug\Core.csproj.CopyComplete
 D:\Rio\Tugas WPF\ProjectManagement\Project Management WPF\ProjectManagement_WPF\Core\obj\Debug\Core.exe
 D:\Rio\Tugas WPF\ProjectManagement\Project Management WPF\ProjectManagement_WPF\Core\obj\Debug\Core.pdb
-D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\Tugas Program\start learn mvs\ProjectManagement\ProjectManagement\ProjectManagement_WPF\Core\bin\Debug\Core.exe.config
-D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\Tugas Program\start learn mvs\ProjectManagement\ProjectManagement\ProjectManagement_WPF\Core\bin\Debug\Core.exe
-D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\Tugas Program\start learn mvs\ProjectManagement\ProjectManagement\ProjectManagement_WPF\Core\bin\Debug\Core.pdb
-D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\Tugas Program\start learn mvs\ProjectManagement\ProjectManagement\ProjectManagement_WPF\Core\bin\Debug\EntityFramework.dll
-D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\Tugas Program\start learn mvs\ProjectManagement\ProjectManagement\ProjectManagement_WPF\Core\bin\Debug\EntityFramework.SqlServer.dll
-D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\Tugas Program\start learn mvs\ProjectManagement\ProjectManagement\ProjectManagement_WPF\Core\bin\Debug\EntityFramework.xml
-D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\Tugas Program\start learn mvs\ProjectManagement\ProjectManagement\ProjectManagement_WPF\Core\bin\Debug\EntityFramework.SqlServer.xml
-D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\Tugas Program\start learn mvs\ProjectManagement\ProjectManagement\ProjectManagement_WPF\Core\obj\Debug\Core.csprojResolveAssemblyReference.cache
-D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\Tugas Program\start learn mvs\ProjectManagement\ProjectManagement\ProjectManagement_WPF\Core\obj\Debug\Core.exe
-D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\Tugas Program\start learn mvs\ProjectManagement\ProjectManagement\ProjectManagement_WPF\Core\obj\Debug\Core.pdb

@@ -74,11 +74,11 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Page Include="MenuMember\CreateProjectMember.xaml">
+    <Page Include="MenuPM\ProjectDetailsPM.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="MenuMember\ProjectMember.xaml">
+    <Page Include="MenuPM\TaskPM.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -88,11 +88,11 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="MenuMember\CreateProjectMember.xaml.cs">
-      <DependentUpon>CreateProjectMember.xaml</DependentUpon>
+    <Compile Include="MenuPM\ProjectDetailsPM.xaml.cs">
+      <DependentUpon>ProjectDetailsPM.xaml</DependentUpon>
     </Compile>
-    <Compile Include="MenuMember\ProjectMember.xaml.cs">
-      <DependentUpon>ProjectMember.xaml</DependentUpon>
+    <Compile Include="MenuPM\TaskPM.xaml.cs">
+      <DependentUpon>TaskPM.xaml</DependentUpon>
     </Compile>
     <Compile Include="ProjectManager.xaml.cs">
       <DependentUpon>ProjectManager.xaml</DependentUpon>
@@ -123,12 +123,17 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
-    <Resource Include="Image\checklist4.png" />
-    <Resource Include="Image\home.png" />
-    <Resource Include="Image\task2.png" />
-    <Resource Include="Image\timer.png" />
+    <Folder Include="MenuMember\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\checklist.png" />
+    <Resource Include="Assets\checklist2.png" />
+    <Resource Include="Assets\checklist3.png" />
+    <Resource Include="Assets\checklist4.png" />
+    <Resource Include="Assets\task.png" />
+    <Resource Include="Assets\task2.png" />
+    <Resource Include="Assets\timer.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -51,18 +51,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Context\MyContext.cs" />
-    <Compile Include="Migrations\201906101516090_AddingReplyandTicket.cs" />
-    <Compile Include="Migrations\201906101516090_AddingReplyandTicket.Designer.cs">
-      <DependentUpon>201906101516090_AddingReplyandTicket.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201906120128102_AllModelComplete.cs" />
-    <Compile Include="Migrations\201906120128102_AllModelComplete.Designer.cs">
-      <DependentUpon>201906120128102_AllModelComplete.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201906120623293_ProjectMemberRevision.cs" />
-    <Compile Include="Migrations\201906120623293_ProjectMemberRevision.Designer.cs">
-      <DependentUpon>201906120623293_ProjectMemberRevision.cs</DependentUpon>
-    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Employee.cs" />
     <Compile Include="Models\Project.cs" />
@@ -92,17 +80,6 @@
       <Project>{4740C14A-290C-4971-95DD-78BD1F485BF2}</Project>
       <Name>Core</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Migrations\201906101516090_AddingReplyandTicket.resx">
-      <DependentUpon>201906101516090_AddingReplyandTicket.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201906120128102_AllModelComplete.resx">
-      <DependentUpon>201906120128102_AllModelComplete.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201906120623293_ProjectMemberRevision.resx">
-      <DependentUpon>201906120623293_ProjectMemberRevision.cs</DependentUpon>
-    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

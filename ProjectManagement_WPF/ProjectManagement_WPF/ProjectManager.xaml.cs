@@ -1,4 +1,4 @@
-﻿using ProjectManagement_WPF.MenuMember;
+﻿using ProjectManagement_WPF.MenuPM;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -45,16 +45,16 @@ namespace ProjectManagement_WPF
             switch (((ListViewItem)((ListView)sender).SelectedItem).Name)
             {
                 case "ItemDashboard":
-                   
+                    new ProjectManager();
                     break;
                 case "ItemProject":
-                    
-                    break;
-                case "ItemTask":
-                    usc = new ProjectMember();
+                    usc = new ProjectDetailsPM();
                     GridMain.Children.Add(usc);
                     break;
-
+                case "ItemTask":
+                    usc = new TaskPM();
+                    GridMain.Children.Add(usc);
+                    break;
                 default:
                     break;
             }

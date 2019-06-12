@@ -12,23 +12,20 @@ namespace DataAccess.Models
     [Table("TB_T_ProjectMember")]
     public class ProjectMember : BaseModel
     {
-        [ForeignKey("Project")]
-        public int Project_Id { get; set; }
-        public Project Project { get; set; }
-
         public int User_Id { get; set; }
 
         [ForeignKey("Rule")]
         public int Rules_Id { get; set; }
-        //public Ticket Ticket { get; set; }
         public Rule Rule { get; set; }
+
+        [ForeignKey("Project")]
+        public int Project_Id { get; set; }
+        public Project Project { get; set; }
 
 
         public ProjectMember(ProjectMemberVM projectMemberVM)
         {
             this.Id = projectMemberVM.Id;
-            this.Project_Id = projectMemberVM.Project_Id;
-            this.Rules_Id = projectMemberVM.Rules_Id;
             this.User_Id = projectMemberVM.User_Id;
             this.CreateDate = DateTimeOffset.Now.LocalDateTime;
         }
@@ -38,8 +35,6 @@ namespace DataAccess.Models
         public void Update(ProjectMemberVM projectMemberVM)
         {
             this.Id = projectMemberVM.Id;
-            this.Project_Id = projectMemberVM.Project_Id;
-            this.Rules_Id = projectMemberVM.Rules_Id;
             this.User_Id = projectMemberVM.User_Id;
             this.UpdateDate = DateTimeOffset.Now.LocalDateTime;
         }

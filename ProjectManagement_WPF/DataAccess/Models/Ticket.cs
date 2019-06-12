@@ -31,14 +31,6 @@ namespace DataAccess.Models
             this.CreateDate = DateTimeOffset.Now.ToLocalTime();
         }
 
-        public void Update(int id, TicketVM ticketVM)
-        {
-            this.Id = id;
-            this.From_Userid = ticketVM.From_UserId;
-            this.Message = ticketVM.Message;
-            this.UpdateDate = DateTimeOffset.Now.ToLocalTime();
-        }
-
         public void Delete()
         {
             this.IsDelete = true;

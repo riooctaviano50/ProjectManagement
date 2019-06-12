@@ -13,6 +13,7 @@ namespace DataAccess.Models
     [Table("TB_T_Tasks")]
     public class Task : BaseModel
     {
+        public string Name { get; set; }
         public string Description { get; set; }
         public DateTime StartDate { get; set; }
         public DateTime DueDate { get; set; }
@@ -24,8 +25,6 @@ namespace DataAccess.Models
         public int Status_Id { get; set; }
         public Status Status { get; set; }
 
-
-
         [ForeignKey("Project")]
         public int Project_Id { get; set; }
         public Project Project { get; set; }
@@ -34,6 +33,7 @@ namespace DataAccess.Models
 
         public Task(TaskVM taskVM)
         {
+            this.Name = taskVM.Name;
             this.Description = taskVM.Description;
             this.StartDate = taskVM.StartDate;
             this.DueDate = taskVM.DueDate;
@@ -46,6 +46,7 @@ namespace DataAccess.Models
         public void Update(int id, TaskVM taskVM)
         {
             this.Id = id;
+            this.Name = taskVM.Name;
             this.Description = taskVM.Description;
             this.StartDate = taskVM.StartDate;
             this.DueDate = taskVM.DueDate;
