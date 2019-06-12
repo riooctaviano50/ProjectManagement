@@ -26,13 +26,6 @@ namespace DataAccess.Models
             this.Reply_From = repliesVM.Reply_From;
             this.CreateDate = DateTimeOffset.Now.ToLocalTime();
         }
-        public void Update(RepliesVM repliesVM)
-        {
-            this.Id = repliesVM.Id;
-            this.Message = repliesVM.Message;
-            this.Reply_From = repliesVM.Reply_From;
-            this.UpdateDate = DateTimeOffset.Now.ToLocalTime();
-        }
         public void Delete()
         {
             this.IsDelete = true;

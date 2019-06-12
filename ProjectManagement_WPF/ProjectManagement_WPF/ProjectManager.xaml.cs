@@ -1,4 +1,4 @@
-﻿using ProjectManagement_WPF.Menu;
+﻿using ProjectManagement_WPF.MenuPM;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -48,14 +48,13 @@ namespace ProjectManagement_WPF
                     new ProjectManager();
                     break;
                 case "ItemProject":
-                    usc = new ProjectPM();
+                    usc = new ProjectDetailsPM();
                     GridMain.Children.Add(usc);
                     break;
                 case "ItemTask":
                     usc = new TaskPM();
                     GridMain.Children.Add(usc);
                     break;
-
                 default:
                     break;
             }

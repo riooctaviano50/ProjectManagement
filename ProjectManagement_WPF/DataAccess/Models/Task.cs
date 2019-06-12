@@ -25,8 +25,6 @@ namespace DataAccess.Models
         public int Status_Id { get; set; }
         public Status Status { get; set; }
 
-
-
         [ForeignKey("Project")]
         public int Project_Id { get; set; }
         public Project Project { get; set; }

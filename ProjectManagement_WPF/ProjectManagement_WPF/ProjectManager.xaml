@@ -30,9 +30,10 @@
         </EventTrigger>
     </Window.Triggers>
     <Grid Background="#FFDEDEDE">
-        <Grid x:Name="GridMain" HorizontalAlignment="Right" VerticalAlignment="Bottom" Height="509" Width="1002">
+        <Grid x:Name="GridMain" HorizontalAlignment="Right" VerticalAlignment="Bottom" Height="509" Width="997">
             <Grid.RowDefinitions>
                 <RowDefinition Height="200*"/>
+                
             </Grid.RowDefinitions>
         </Grid>
         <Grid Height="60" VerticalAlignment="Top" Background="#FF5C99D6">
