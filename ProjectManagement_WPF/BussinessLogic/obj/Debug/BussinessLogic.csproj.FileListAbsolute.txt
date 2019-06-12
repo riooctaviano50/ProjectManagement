@@ -15,7 +15,6 @@ D:\Rio\Tugas WPF\ProjectManagement\Project Management WPF\ProjectManagement_WPF\
 D:\Rio\Tugas WPF\ProjectManagement\Project Management WPF\ProjectManagement_WPF\BussinessLogic\bin\Debug\EntityFramework.SqlServer.dll
 D:\Rio\Tugas WPF\ProjectManagement\Project Management WPF\ProjectManagement_WPF\BussinessLogic\bin\Debug\EntityFramework.xml
 D:\Rio\Tugas WPF\ProjectManagement\Project Management WPF\ProjectManagement_WPF\BussinessLogic\bin\Debug\EntityFramework.SqlServer.xml
-D:\Rio\Tugas WPF\ProjectManagement\Project Management WPF\ProjectManagement_WPF\BussinessLogic\obj\Debug\BussinessLogic.csprojAssemblyReference.cache
 D:\Rio\Tugas WPF\ProjectManagement\Project Management WPF\ProjectManagement_WPF\BussinessLogic\obj\Debug\BussinessLogic.csproj.CoreCompileInputs.cache
 D:\Rio\Tugas WPF\ProjectManagement\Project Management WPF\ProjectManagement_WPF\BussinessLogic\obj\Debug\BussinessLogic.csproj.CopyComplete
 D:\Rio\Tugas WPF\ProjectManagement\Project Management WPF\ProjectManagement_WPF\BussinessLogic\obj\Debug\BussinessLogic.exe

@@ -45,11 +45,9 @@
     </Reference>
     <Reference Include="MaterialDesignColors, Version=1.1.2.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\MaterialDesignColors.1.1.2\lib\net45\MaterialDesignColors.dll</HintPath>
-      <Private>True</Private>
     </Reference>
     <Reference Include="MaterialDesignThemes.Wpf, Version=2.5.1.1345, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\MaterialDesignThemes.2.5.1\lib\net45\MaterialDesignThemes.Wpf.dll</HintPath>
-      <Private>True</Private>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
@@ -76,14 +74,14 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Page Include="Member.xaml">
+    <Page Include="ProjectManager.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Member.xaml.cs">
-      <DependentUpon>Member.xaml</DependentUpon>
+    <Compile Include="ProjectManager.xaml.cs">
+      <DependentUpon>ProjectManager.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
@@ -112,25 +110,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Assets\checklist.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Assets\task.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Assets\timer.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Assets\task2.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Assets\checklist2.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Assets\checklist3.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="Assets\checklist4.png" />
+    <Resource Include="images\logo MII.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
