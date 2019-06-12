@@ -41,3 +41,7 @@ D:\Rio\Tugas WPF\ProjectManagement\Project Management WPF\ProjectManagement_WPF\
 D:\Rio\Tugas WPF\ProjectManagement\Project Management WPF\ProjectManagement_WPF\ProjectManagement_WPF\bin\Debug\MaterialDesignThemes.Wpf.pdb
 D:\Rio\Tugas WPF\ProjectManagement\Project Management WPF\ProjectManagement_WPF\ProjectManagement_WPF\bin\Debug\MaterialDesignThemes.Wpf.xml
 D:\Rio\Tugas WPF\ProjectManagement\Project Management WPF\ProjectManagement_WPF\ProjectManagement_WPF\obj\Debug\App.baml
+D:\Rio\Tugas WPF\ProjectManagement\Project Management WPF\ProjectManagement_WPF\ProjectManagement_WPF\obj\Debug\Menu\ProjectPM.baml
+D:\Rio\Tugas WPF\ProjectManagement\Project Management WPF\ProjectManagement_WPF\ProjectManagement_WPF\obj\Debug\Menu\ProjectPM.g.cs
+D:\Rio\Tugas WPF\ProjectManagement\Project Management WPF\ProjectManagement_WPF\ProjectManagement_WPF\obj\Debug\Menu\TaskPM.g.cs
+D:\Rio\Tugas WPF\ProjectManagement\Project Management WPF\ProjectManagement_WPF\ProjectManagement_WPF\obj\Debug\Menu\TaskPM.baml

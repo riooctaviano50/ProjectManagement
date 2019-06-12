@@ -19,3 +19,4 @@ D:\Rio\Tugas WPF\ProjectManagement\Project Management WPF\ProjectManagement_WPF\
 D:\Rio\Tugas WPF\ProjectManagement\Project Management WPF\ProjectManagement_WPF\BussinessLogic\obj\Debug\BussinessLogic.csproj.CopyComplete
 D:\Rio\Tugas WPF\ProjectManagement\Project Management WPF\ProjectManagement_WPF\BussinessLogic\obj\Debug\BussinessLogic.exe
 D:\Rio\Tugas WPF\ProjectManagement\Project Management WPF\ProjectManagement_WPF\BussinessLogic\obj\Debug\BussinessLogic.pdb
+D:\Rio\Tugas WPF\ProjectManagement\Project Management WPF\ProjectManagement_WPF\BussinessLogic\obj\Debug\BussinessLogic.csprojAssemblyReference.cache

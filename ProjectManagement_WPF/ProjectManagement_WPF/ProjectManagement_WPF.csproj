@@ -74,6 +74,20 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Menu\ProjectPM.xaml.cs">
+      <DependentUpon>ProjectPM.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Menu\TaskPM.xaml.cs">
+      <DependentUpon>TaskPM.xaml</DependentUpon>
+    </Compile>
+    <Page Include="Menu\ProjectPM.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Menu\TaskPM.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="ProjectManager.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>

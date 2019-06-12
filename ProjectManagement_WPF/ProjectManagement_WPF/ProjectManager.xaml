@@ -30,7 +30,11 @@
         </EventTrigger>
     </Window.Triggers>
     <Grid Background="#FFDEDEDE">
-        <Grid x:Name="GridMain" HorizontalAlignment="Right" VerticalAlignment="Bottom" Height="540" Width="1010"/>
+        <Grid x:Name="GridMain" HorizontalAlignment="Right" VerticalAlignment="Bottom" Height="509" Width="1002">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="200*"/>
+            </Grid.RowDefinitions>
+        </Grid>
         <Grid Height="60" VerticalAlignment="Top" Background="#FF5C99D6">
             <Grid.Effect>
                 <DropShadowEffect BlurRadius="1" ShadowDepth="1" Color="#FFACACAC"/>
@@ -69,19 +73,19 @@
                 <ListView x:Name="ListViewMenu" Foreground="#FF5C99D6" ScrollViewer.HorizontalScrollBarVisibility="Disabled" SelectionChanged="ListViewMenu_SelectionChanged">
                     <ListViewItem x:Name="ItemDashboard" Height="75">
                         <StackPanel Orientation="Horizontal">
-                            <materialDesign:PackIcon Kind="Home" Height="25" Width="25" Margin="10"/>
+                            <materialDesign:PackIcon Kind="Home" Height="25" Width="25" Margin="14"/>
                             <TextBlock Text="Dashboard" VerticalAlignment="Center" Margin="20 10"/>
                         </StackPanel>
                     </ListViewItem>
                     <ListViewItem x:Name="ItemProject" Height="75">
                         <StackPanel Orientation="Horizontal">
-                            <materialDesign:PackIcon Kind="Teach" Height="25" Width="25" Margin="10"/>
+                            <materialDesign:PackIcon Kind="Teach" Height="25" Width="25" Margin="14"/>
                             <TextBlock Text="Project" VerticalAlignment="Center" Margin="20 10"/>
                         </StackPanel>
                     </ListViewItem>
                     <ListViewItem x:Name="ItemTask" Height="75">
                         <StackPanel Orientation="Horizontal">
-                            <materialDesign:PackIcon Kind="ClipboardCheck" Height="25" Width="25" Margin="10"/>
+                            <materialDesign:PackIcon Kind="ClipboardCheck" Height="25" Width="25" Margin="14"/>
                             <TextBlock Text="Tasks" VerticalAlignment="Center"  Margin="20 10"/>
                         </StackPanel>
                     </ListViewItem>
