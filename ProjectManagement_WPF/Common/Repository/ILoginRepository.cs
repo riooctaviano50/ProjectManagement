@@ -10,8 +10,7 @@ namespace Common.Repository
 {
     public interface ILoginRepository
     {
-        Employee Get(string email, string password);
-
+        Employee GetLogin(string email, string password); 
     }
 
 

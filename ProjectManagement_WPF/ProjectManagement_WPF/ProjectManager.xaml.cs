@@ -40,7 +40,7 @@ namespace ProjectManagement_WPF
         {
             UserControl usc = null;
             GridMain.Children.Clear();
-
+4
             switch (((ListViewItem)((ListView)sender).SelectedItem).Name)
             {
                 case "ItemDashboard":

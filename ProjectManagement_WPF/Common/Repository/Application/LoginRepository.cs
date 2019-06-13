@@ -13,13 +13,14 @@ namespace Common.Repository.Application
     public class LoginRepository : ILoginRepository
     {
         MyContext myContext = new MyContext();
-        bool status = false;
 
-        public Employee Get(string email, string password)
+        public Employee GetLogin(string email, string password)
         {
-            var get = myContext.Employees.Find(email, password);
+            var get = myContext.Employees.Where
+            (x => (x.Email.Contains(email) ||
+             x.Password.Contains(password)) &&
+             x.IsDelete == false).SingleOrDefault();
             return get;
         }
-
     }
 }

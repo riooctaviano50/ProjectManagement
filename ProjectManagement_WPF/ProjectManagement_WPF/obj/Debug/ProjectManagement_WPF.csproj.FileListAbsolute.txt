@@ -23,8 +23,36 @@ D:\Rio\Tugas WPF\ProjectManagement\Project Management WPF\ProjectManagement_WPF\
 D:\Rio\Tugas WPF\ProjectManagement\Project Management WPF\ProjectManagement_WPF\ProjectManagement_WPF\bin\Debug\MaterialDesignThemes.Wpf.pdb
 D:\Rio\Tugas WPF\ProjectManagement\Project Management WPF\ProjectManagement_WPF\ProjectManagement_WPF\bin\Debug\MaterialDesignThemes.Wpf.xml
 D:\Rio\Tugas WPF\ProjectManagement\Project Management WPF\ProjectManagement_WPF\ProjectManagement_WPF\obj\Debug\App.baml
+D:\MII\PROJECT MANAGEMENT\ProjectManagement\ProjectManagement_WPF\ProjectManagement_WPF\bin\Debug\ProjectManagement_WPF.exe.config
+D:\MII\PROJECT MANAGEMENT\ProjectManagement\ProjectManagement_WPF\ProjectManagement_WPF\bin\Debug\ProjectManagement_WPF.exe
+D:\MII\PROJECT MANAGEMENT\ProjectManagement\ProjectManagement_WPF\ProjectManagement_WPF\bin\Debug\ProjectManagement_WPF.pdb
+D:\MII\PROJECT MANAGEMENT\ProjectManagement\ProjectManagement_WPF\ProjectManagement_WPF\bin\Debug\BussinessLogic.exe
+D:\MII\PROJECT MANAGEMENT\ProjectManagement\ProjectManagement_WPF\ProjectManagement_WPF\bin\Debug\DataAccess.exe
+D:\MII\PROJECT MANAGEMENT\ProjectManagement\ProjectManagement_WPF\ProjectManagement_WPF\bin\Debug\EntityFramework.dll
+D:\MII\PROJECT MANAGEMENT\ProjectManagement\ProjectManagement_WPF\ProjectManagement_WPF\bin\Debug\EntityFramework.SqlServer.dll
+D:\MII\PROJECT MANAGEMENT\ProjectManagement\ProjectManagement_WPF\ProjectManagement_WPF\bin\Debug\MaterialDesignColors.dll
+D:\MII\PROJECT MANAGEMENT\ProjectManagement\ProjectManagement_WPF\ProjectManagement_WPF\bin\Debug\MaterialDesignThemes.Wpf.dll
+D:\MII\PROJECT MANAGEMENT\ProjectManagement\ProjectManagement_WPF\ProjectManagement_WPF\bin\Debug\Common.exe
+D:\MII\PROJECT MANAGEMENT\ProjectManagement\ProjectManagement_WPF\ProjectManagement_WPF\bin\Debug\Core.exe
+D:\MII\PROJECT MANAGEMENT\ProjectManagement\ProjectManagement_WPF\ProjectManagement_WPF\bin\Debug\BussinessLogic.pdb
+D:\MII\PROJECT MANAGEMENT\ProjectManagement\ProjectManagement_WPF\ProjectManagement_WPF\bin\Debug\DataAccess.pdb
+D:\MII\PROJECT MANAGEMENT\ProjectManagement\ProjectManagement_WPF\ProjectManagement_WPF\bin\Debug\EntityFramework.xml
+D:\MII\PROJECT MANAGEMENT\ProjectManagement\ProjectManagement_WPF\ProjectManagement_WPF\bin\Debug\EntityFramework.SqlServer.xml
+D:\MII\PROJECT MANAGEMENT\ProjectManagement\ProjectManagement_WPF\ProjectManagement_WPF\bin\Debug\MaterialDesignThemes.Wpf.pdb
+D:\MII\PROJECT MANAGEMENT\ProjectManagement\ProjectManagement_WPF\ProjectManagement_WPF\bin\Debug\MaterialDesignThemes.Wpf.xml
+D:\MII\PROJECT MANAGEMENT\ProjectManagement\ProjectManagement_WPF\ProjectManagement_WPF\bin\Debug\Common.pdb
+D:\MII\PROJECT MANAGEMENT\ProjectManagement\ProjectManagement_WPF\ProjectManagement_WPF\bin\Debug\Core.pdb
 D:\MII\PROJECT MANAGEMENT\ProjectManagement\ProjectManagement_WPF\ProjectManagement_WPF\obj\Debug\ProjectManagement_WPF.csprojResolveAssemblyReference.cache
 D:\MII\PROJECT MANAGEMENT\ProjectManagement\ProjectManagement_WPF\ProjectManagement_WPF\obj\Debug\Login.g.cs
+D:\MII\PROJECT MANAGEMENT\ProjectManagement\ProjectManagement_WPF\ProjectManagement_WPF\obj\Debug\ProjectManager.g.cs
 D:\MII\PROJECT MANAGEMENT\ProjectManagement\ProjectManagement_WPF\ProjectManagement_WPF\obj\Debug\App.g.cs
 D:\MII\PROJECT MANAGEMENT\ProjectManagement\ProjectManagement_WPF\ProjectManagement_WPF\obj\Debug\ProjectManagement_WPF_MarkupCompile.cache
 D:\MII\PROJECT MANAGEMENT\ProjectManagement\ProjectManagement_WPF\ProjectManagement_WPF\obj\Debug\ProjectManagement_WPF_MarkupCompile.lref
+D:\MII\PROJECT MANAGEMENT\ProjectManagement\ProjectManagement_WPF\ProjectManagement_WPF\obj\Debug\App.baml
+D:\MII\PROJECT MANAGEMENT\ProjectManagement\ProjectManagement_WPF\ProjectManagement_WPF\obj\Debug\Login.baml
+D:\MII\PROJECT MANAGEMENT\ProjectManagement\ProjectManagement_WPF\ProjectManagement_WPF\obj\Debug\ProjectManager.baml
+D:\MII\PROJECT MANAGEMENT\ProjectManagement\ProjectManagement_WPF\ProjectManagement_WPF\obj\Debug\ProjectManagement_WPF.g.resources
+D:\MII\PROJECT MANAGEMENT\ProjectManagement\ProjectManagement_WPF\ProjectManagement_WPF\obj\Debug\ProjectManagement_WPF.Properties.Resources.resources
+D:\MII\PROJECT MANAGEMENT\ProjectManagement\ProjectManagement_WPF\ProjectManagement_WPF\obj\Debug\ProjectManagement_WPF.csproj.GenerateResource.Cache
+D:\MII\PROJECT MANAGEMENT\ProjectManagement\ProjectManagement_WPF\ProjectManagement_WPF\obj\Debug\ProjectManagement_WPF.exe
+D:\MII\PROJECT MANAGEMENT\ProjectManagement\ProjectManagement_WPF\ProjectManagement_WPF\obj\Debug\ProjectManagement_WPF.pdb

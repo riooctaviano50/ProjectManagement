@@ -51,13 +51,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Context\MyContext.cs" />
-    <Compile Include="Migrations\201906101516090_AddingReplyandTicket.cs" />
-    <Compile Include="Migrations\201906101516090_AddingReplyandTicket.Designer.cs">
-      <DependentUpon>201906101516090_AddingReplyandTicket.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201906110120006_adding.cs" />
-    <Compile Include="Migrations\201906110120006_adding.Designer.cs">
-      <DependentUpon>201906110120006_adding.cs</DependentUpon>
+    <Compile Include="Migrations\201906120831492_Addingfixdatabase.cs" />
+    <Compile Include="Migrations\201906120831492_Addingfixdatabase.Designer.cs">
+      <DependentUpon>201906120831492_Addingfixdatabase.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Employee.cs" />
@@ -90,11 +86,8 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201906101516090_AddingReplyandTicket.resx">
-      <DependentUpon>201906101516090_AddingReplyandTicket.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201906110120006_adding.resx">
-      <DependentUpon>201906110120006_adding.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201906120831492_Addingfixdatabase.resx">
+      <DependentUpon>201906120831492_Addingfixdatabase.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

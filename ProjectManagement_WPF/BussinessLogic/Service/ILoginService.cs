@@ -9,6 +9,6 @@ namespace BussinessLogic.Service
 {
     public interface ILoginService
     {
-        Employee Get(string email, string password);
+        Employee GetLogin(string email, string password);
     }
 }

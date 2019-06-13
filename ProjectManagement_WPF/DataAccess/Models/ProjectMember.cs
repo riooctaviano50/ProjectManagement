@@ -17,7 +17,7 @@ namespace DataAccess.Models
 
         [ForeignKey("Rule")]
         public int Rules_Id { get; set; }
-        public Ticket Ticket { get; set; }
+        public Rule Rule { get; set; }
 
 
         public ProjectMember(ProjectMemberVM projectMemberVM)

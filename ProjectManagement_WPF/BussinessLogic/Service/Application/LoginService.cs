@@ -12,13 +12,11 @@ namespace BussinessLogic.Service.Application
     public class LoginService : ILoginService
     {
         ILoginRepository iLoginRepository = new LoginRepository();
-        bool status = false;
 
-        public Employee Get(string email, string password)
+        public Employee GetLogin(string email, string password)
         {
-            return iLoginRepository.Get(email, password);
+            return iLoginRepository.GetLogin(email, password);
         }
-
     }
 }
 
