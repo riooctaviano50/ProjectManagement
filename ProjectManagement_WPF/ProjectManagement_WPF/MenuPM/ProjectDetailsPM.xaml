@@ -4,21 +4,21 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:ProjectManagement_WPF.MenuPM"
-             mc:Ignorable="d" 
-             d:DesignHeight="450" d:DesignWidth="1002">
-    <StackPanel Background="WhiteSmoke">
+             mc:Ignorable="d" Width="1300" Height="680">
+    <StackPanel Background="AliceBlue">
         <StackPanel Orientation="Horizontal" VerticalAlignment="Top" Margin="10 0">
             <Label Content="Project Details" HorizontalAlignment="Left" VerticalAlignment="Center" FontSize="22" Margin="15"/>
-            <Button Content="Edit" Width="100" Height="35" Margin="682,5,0,0"/>
+            <Button Content="Edit" Width="100" Height="35" Margin="1000,5,0,0"/>
         </StackPanel>
-        <Grid Width="980" Height="10" Background="Black" HorizontalAlignment="Left" Margin="10,0,10,0"/>
+        <Grid Width="1280" Height="10" Background="Black" HorizontalAlignment="Left" Margin="10,0,10,0"/>
         <StackPanel Orientation="Horizontal" VerticalAlignment="Top" Margin="10 0">
-            <Button Uid="0" Width="150" Content="Overview" Height="50" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="#FF2196F3"/>
-            <Button Uid="1" Width="150" Content="Member" Height="50" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="#FF2196F3"/>
-            <Button Uid="2" Width="150" Content="Tasks" Height="50" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="#FF2196F3"/>
-            <Button Uid="3" Width="150" Content="Tickets" Height="50" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="#FF2196F3"/>
+            <Button Uid="0" Width="150" Content="Overview" Height="50" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="#FF2196F3" Click="Button_Click"/>
+            <Button Uid="1" Width="150" Content="Member" Height="50" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="#FF2196F3" Click="Button_Click"/>
+            <Button Uid="2" Width="150" Content="Tasks" Height="50" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="#FF2196F3" Click="Button_Click"/>
+            <Button Uid="3" Width="150" Content="Tickets" Height="50" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="#FF2196F3" Click="Button_Click"/>
         </StackPanel>
         <Grid x:Name="GridCursor" Width="150" Height="5" Background="#FF2196F3" HorizontalAlignment="Left" Margin="10 0"/>
+        <Grid x:Name="GridMain" Margin="10,0" Height="540"/>
 
     </StackPanel>
 </UserControl>
