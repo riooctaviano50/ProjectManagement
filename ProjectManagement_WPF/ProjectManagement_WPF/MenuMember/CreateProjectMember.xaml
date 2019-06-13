@@ -1,0 +1,33 @@
+﻿<UserControl x:Class="ProjectManagement_WPF.MenuMember.CreateProjectMember"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:ProjectManagement_WPF.MenuMember"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="1002">
+    <StackPanel Background="WhiteSmoke">
+        <StackPanel Orientation="Horizontal" VerticalAlignment="Top" Margin="10 0">
+            <Label Content="Create Project" HorizontalAlignment="Left" VerticalAlignment="Center" FontSize="22" Margin="15"/>
+        </StackPanel>
+        <StackPanel HorizontalAlignment="Left" Orientation="Vertical" Height="267" Margin="70,15,0,0" VerticalAlignment="Top" Width="406">
+            <Grid>
+                <Label x:Name="lbl_Name" Content="Name"/>
+                <TextBox x:Name="txb_Name" TextWrapping="Wrap" Text="" Background="White" Margin="90,2,20,0"/>
+            </Grid>
+            <Grid>
+                <Label x:Name="lbl_StartDate" Content="Start Date" Margin="0,10,0,0"/>
+                <DatePicker x:Name="date_Start" HorizontalAlignment = "Left" Background="White" Margin = "90,10,20,0" VerticalAlignment = "Top" Width="206"/>
+            </Grid>
+            <Grid>
+                <Label x:Name="lbl_DueDate" Content="Due Date" Margin="0,10,0,0"/>
+                <DatePicker x:Name="date_Due" HorizontalAlignment = "Left" Background="White" Margin = "90,10,20,0" VerticalAlignment = "Top" Width="206"/>
+            </Grid>
+            <Grid>
+                <Label x:Name="lbl_DetailProject" Margin="0,10,0,0" Content="Detail Project"/>
+                <TextBox x:Name="txb_DetailProject" Margin="90,10,20,0" Height="67" TextWrapping="Wrap" Text="" Background="White"/>
+            </Grid>
+            <Button x:Name="button" HorizontalAlignment="Right" Content="Save" Margin="0,10,0,0" d:LayoutOverrides="Height" Background="#2CC168" Click="button_Click"/>
+        </StackPanel>
+    </StackPanel>
+</UserControl>

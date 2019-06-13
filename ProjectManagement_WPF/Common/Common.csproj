@@ -54,7 +54,10 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+<<<<<<< HEAD
     <Compile Include="Repository\Application\LoginRepository.cs" />
+=======
+>>>>>>> remotes/origin/Farin
     <Compile Include="Repository\Application\ProjectMemberRepository.cs" />
     <Compile Include="Repository\Application\ProjectRepository.cs" />
     <Compile Include="Repository\Application\RepliesRepository.cs" />
@@ -72,6 +75,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="bin\Debug\Common.exe.config" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
@@ -83,6 +87,23 @@
       <Project>{618889DE-74C9-4FB0-8B04-6C5CC6B00441}</Project>
       <Name>DataAccess</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\BussinessLogic.exe" />
+    <Content Include="bin\Debug\BussinessLogic.pdb" />
+    <Content Include="bin\Debug\Common.exe" />
+    <Content Include="bin\Debug\Common.pdb" />
+    <Content Include="bin\Debug\Core.exe" />
+    <Content Include="bin\Debug\Core.pdb" />
+    <Content Include="bin\Debug\DataAccess.exe" />
+    <Content Include="bin\Debug\DataAccess.pdb" />
+    <Content Include="bin\Debug\EntityFramework.dll" />
+    <Content Include="bin\Debug\EntityFramework.SqlServer.dll" />
+    <Content Include="bin\Debug\EntityFramework.SqlServer.xml" />
+    <Content Include="bin\Debug\EntityFramework.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Release\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

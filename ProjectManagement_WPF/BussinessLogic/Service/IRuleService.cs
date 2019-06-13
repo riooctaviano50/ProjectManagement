@@ -8,7 +8,11 @@ using System.Threading.Tasks;
 
 namespace BussinessLogic.Service
 {
+<<<<<<< HEAD
    public interface IRuleService
+=======
+    interface IRuleService
+>>>>>>> remotes/origin/Farin
     {
         List<Rule> Get();
         List<Rule> GetSearch(string Values);

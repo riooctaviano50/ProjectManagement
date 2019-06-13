@@ -83,6 +83,7 @@ D:\backup\ProjectManagement_WPF\ProjectManagement_WPF\obj\Debug\ProjectManagemen
 D:\backup\ProjectManagement_WPF\ProjectManagement_WPF\obj\Debug\ProjectManagement_WPF.csproj.CopyComplete
 D:\backup\ProjectManagement_WPF\ProjectManagement_WPF\obj\Debug\ProjectManagement_WPF.exe
 D:\backup\ProjectManagement_WPF\ProjectManagement_WPF\obj\Debug\ProjectManagement_WPF.pdb
+<<<<<<< HEAD
 D:\Rio\Tugas WPF\ProjectManagement_WPF\ProjectManagement_WPF\bin\Debug\ProjectManagement_WPF.exe.config
 D:\Rio\Tugas WPF\ProjectManagement_WPF\ProjectManagement_WPF\bin\Debug\ProjectManagement_WPF.exe
 D:\Rio\Tugas WPF\ProjectManagement_WPF\ProjectManagement_WPF\bin\Debug\ProjectManagement_WPF.pdb
@@ -157,3 +158,91 @@ D:\MII\PROJECT MANAGEMENT\ProjectManagement\ProjectManagement_WPF\ProjectManagem
 D:\MII\PROJECT MANAGEMENT\ProjectManagement\ProjectManagement_WPF\ProjectManagement_WPF\obj\Debug\ProjectManagement_WPF.csproj.GenerateResource.Cache
 D:\MII\PROJECT MANAGEMENT\ProjectManagement\ProjectManagement_WPF\ProjectManagement_WPF\obj\Debug\ProjectManagement_WPF.exe
 D:\MII\PROJECT MANAGEMENT\ProjectManagement\ProjectManagement_WPF\ProjectManagement_WPF\obj\Debug\ProjectManagement_WPF.pdb
+=======
+D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\Tugas Program\start learn mvs\ProjectManagement\ProjectManagement\ProjectManagement_WPF\ProjectManagement_WPF\obj\Debug\MenuPM\ProjectDetailsPM.g.cs
+D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\Tugas Program\start learn mvs\ProjectManagement\ProjectManagement\ProjectManagement_WPF\ProjectManagement_WPF\obj\Debug\MenuPM\TaskPM.g.cs
+D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\Tugas Program\start learn mvs\ProjectManagement\ProjectManagement\ProjectManagement_WPF\ProjectManagement_WPF\obj\Debug\MenuPM\ProjectDetailsPM.baml
+D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\Tugas Program\start learn mvs\ProjectManagement\ProjectManagement\ProjectManagement_WPF\ProjectManagement_WPF\obj\Debug\MenuPM\TaskPM.baml
+D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\Tugas Program\start learn mvs\ProjectManagement\ProjectManagement\ProjectManagement_WPF\ProjectManagement_WPF\obj\Debug\MenuMember\ProjectDashboard.g.cs
+D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\Tugas Program\start learn mvs\ProjectManagement\ProjectManagement\ProjectManagement_WPF\ProjectManagement_WPF\obj\Debug\MenuMember\TaskDashboard.g.cs
+D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\Tugas Program\start learn mvs\ProjectManagement\ProjectManagement\ProjectManagement_WPF\ProjectManagement_WPF\obj\Debug\MenuMember\ProjectDashboard.baml
+D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\Tugas Program\start learn mvs\ProjectManagement\ProjectManagement\ProjectManagement_WPF\ProjectManagement_WPF\obj\Debug\MenuMember\TaskDashboard.baml
+D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\backup file\ProjectManagement\ProjectManagement\ProjectManagement_WPF\ProjectManagement_WPF\bin\Debug\ProjectManagement_WPF.exe.config
+D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\backup file\ProjectManagement\ProjectManagement\ProjectManagement_WPF\ProjectManagement_WPF\obj\Debug\ProjectManagement_WPF.exe
+D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\backup file\ProjectManagement\ProjectManagement\ProjectManagement_WPF\ProjectManagement_WPF\obj\Debug\ProjectManagement_WPF.pdb
+D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\backup file\ProjectManagement\ProjectManagement\ProjectManagement_WPF\ProjectManagement_WPF\bin\Debug\ProjectManagement_WPF.exe
+D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\backup file\ProjectManagement\ProjectManagement\ProjectManagement_WPF\ProjectManagement_WPF\bin\Debug\ProjectManagement_WPF.pdb
+D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\backup file\ProjectManagement\ProjectManagement\ProjectManagement_WPF\ProjectManagement_WPF\bin\Debug\EntityFramework.dll
+D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\backup file\ProjectManagement\ProjectManagement\ProjectManagement_WPF\ProjectManagement_WPF\bin\Debug\EntityFramework.SqlServer.dll
+D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\backup file\ProjectManagement\ProjectManagement\ProjectManagement_WPF\ProjectManagement_WPF\bin\Debug\MaterialDesignColors.dll
+D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\backup file\ProjectManagement\ProjectManagement\ProjectManagement_WPF\ProjectManagement_WPF\bin\Debug\MaterialDesignThemes.Wpf.dll
+D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\backup file\ProjectManagement\ProjectManagement\ProjectManagement_WPF\ProjectManagement_WPF\bin\Debug\EntityFramework.xml
+D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\backup file\ProjectManagement\ProjectManagement\ProjectManagement_WPF\ProjectManagement_WPF\bin\Debug\EntityFramework.SqlServer.xml
+D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\backup file\ProjectManagement\ProjectManagement\ProjectManagement_WPF\ProjectManagement_WPF\bin\Debug\MaterialDesignThemes.Wpf.pdb
+D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\backup file\ProjectManagement\ProjectManagement\ProjectManagement_WPF\ProjectManagement_WPF\bin\Debug\MaterialDesignThemes.Wpf.xml
+D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\backup file\ProjectManagement\ProjectManagement\ProjectManagement_WPF\ProjectManagement_WPF\obj\Debug\ProjectManagement_WPF.csprojResolveAssemblyReference.cache
+D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\backup file\ProjectManagement\ProjectManagement\ProjectManagement_WPF\ProjectManagement_WPF\obj\Debug\MenuMember\CreateProjectMember.g.cs
+D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\backup file\ProjectManagement\ProjectManagement\ProjectManagement_WPF\ProjectManagement_WPF\obj\Debug\MenuMember\ProjectDashboard.g.cs
+D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\backup file\ProjectManagement\ProjectManagement\ProjectManagement_WPF\ProjectManagement_WPF\obj\Debug\MenuMember\ProjectMember.g.cs
+D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\backup file\ProjectManagement\ProjectManagement\ProjectManagement_WPF\ProjectManagement_WPF\obj\Debug\MenuMember\TaskDashboard.g.cs
+D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\backup file\ProjectManagement\ProjectManagement\ProjectManagement_WPF\ProjectManagement_WPF\obj\Debug\MenuPM\ProjectDetailsPM.g.cs
+D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\backup file\ProjectManagement\ProjectManagement\ProjectManagement_WPF\ProjectManagement_WPF\obj\Debug\MenuPM\TaskPM.g.cs
+D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\backup file\ProjectManagement\ProjectManagement\ProjectManagement_WPF\ProjectManagement_WPF\obj\Debug\ProjectManager.g.cs
+D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\backup file\ProjectManagement\ProjectManagement\ProjectManagement_WPF\ProjectManagement_WPF\obj\Debug\App.g.cs
+D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\backup file\ProjectManagement\ProjectManagement\ProjectManagement_WPF\ProjectManagement_WPF\obj\Debug\ProjectManagement_WPF_MarkupCompile.cache
+D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\backup file\ProjectManagement\ProjectManagement\ProjectManagement_WPF\ProjectManagement_WPF\obj\Debug\ProjectManagement_WPF_MarkupCompile.lref
+D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\backup file\ProjectManagement\ProjectManagement\ProjectManagement_WPF\ProjectManagement_WPF\obj\Debug\App.baml
+D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\backup file\ProjectManagement\ProjectManagement\ProjectManagement_WPF\ProjectManagement_WPF\obj\Debug\MenuMember\CreateProjectMember.baml
+D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\backup file\ProjectManagement\ProjectManagement\ProjectManagement_WPF\ProjectManagement_WPF\obj\Debug\MenuMember\ProjectDashboard.baml
+D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\backup file\ProjectManagement\ProjectManagement\ProjectManagement_WPF\ProjectManagement_WPF\obj\Debug\MenuMember\ProjectMember.baml
+D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\backup file\ProjectManagement\ProjectManagement\ProjectManagement_WPF\ProjectManagement_WPF\obj\Debug\MenuMember\TaskDashboard.baml
+D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\backup file\ProjectManagement\ProjectManagement\ProjectManagement_WPF\ProjectManagement_WPF\obj\Debug\MenuPM\ProjectDetailsPM.baml
+D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\backup file\ProjectManagement\ProjectManagement\ProjectManagement_WPF\ProjectManagement_WPF\obj\Debug\MenuPM\TaskPM.baml
+D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\backup file\ProjectManagement\ProjectManagement\ProjectManagement_WPF\ProjectManagement_WPF\obj\Debug\ProjectManager.baml
+D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\backup file\ProjectManagement\ProjectManagement\ProjectManagement_WPF\ProjectManagement_WPF\obj\Debug\ProjectManagement_WPF.g.resources
+D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\backup file\ProjectManagement\ProjectManagement\ProjectManagement_WPF\ProjectManagement_WPF\obj\Debug\ProjectManagement_WPF.Properties.Resources.resources
+D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\backup file\ProjectManagement\ProjectManagement\ProjectManagement_WPF\ProjectManagement_WPF\obj\Debug\ProjectManagement_WPF.csproj.GenerateResource.Cache
+D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\backup file\ProjectManagementOLD\ProjectManagement\ProjectManagement_WPF\ProjectManagement_WPF\obj\Debug\ProjectManagement_WPF.csprojResolveAssemblyReference.cache
+D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\backup file\ProjectManagementOLD\ProjectManagement\ProjectManagement_WPF\ProjectManagement_WPF\obj\Debug\MenuMember\CreateProjectMember.g.cs
+D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\backup file\ProjectManagementOLD\ProjectManagement\ProjectManagement_WPF\ProjectManagement_WPF\obj\Debug\MenuMember\ProjectDashboard.g.cs
+D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\backup file\ProjectManagementOLD\ProjectManagement\ProjectManagement_WPF\ProjectManagement_WPF\obj\Debug\MenuMember\ProjectMember.g.cs
+D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\backup file\ProjectManagementOLD\ProjectManagement\ProjectManagement_WPF\ProjectManagement_WPF\obj\Debug\MenuMember\TaskDashboard.g.cs
+D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\backup file\ProjectManagementOLD\ProjectManagement\ProjectManagement_WPF\ProjectManagement_WPF\obj\Debug\MenuPM\ProjectDetailsPM.g.cs
+D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\backup file\ProjectManagementOLD\ProjectManagement\ProjectManagement_WPF\ProjectManagement_WPF\obj\Debug\MenuPM\TaskPM.g.cs
+D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\backup file\ProjectManagementOLD\ProjectManagement\ProjectManagement_WPF\ProjectManagement_WPF\obj\Debug\ProjectManager.g.cs
+D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\backup file\ProjectManagementOLD\ProjectManagement\ProjectManagement_WPF\ProjectManagement_WPF\obj\Debug\App.g.cs
+D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\backup file\ProjectManagementOLD\ProjectManagement\ProjectManagement_WPF\ProjectManagement_WPF\obj\Debug\ProjectManagement_WPF_MarkupCompile.cache
+D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\backup file\ProjectManagementOLD\ProjectManagement\ProjectManagement_WPF\ProjectManagement_WPF\obj\Debug\ProjectManagement_WPF_MarkupCompile.lref
+D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\backup file\ProjectManagementOLD\ProjectManagement\ProjectManagement_WPF\ProjectManagement_WPF\bin\Debug\ProjectManagement_WPF.exe.config
+D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\backup file\ProjectManagementOLD\ProjectManagement\ProjectManagement_WPF\ProjectManagement_WPF\bin\Debug\ProjectManagement_WPF.exe
+D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\backup file\ProjectManagementOLD\ProjectManagement\ProjectManagement_WPF\ProjectManagement_WPF\bin\Debug\ProjectManagement_WPF.pdb
+D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\backup file\ProjectManagementOLD\ProjectManagement\ProjectManagement_WPF\ProjectManagement_WPF\bin\Debug\BussinessLogic.exe
+D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\backup file\ProjectManagementOLD\ProjectManagement\ProjectManagement_WPF\ProjectManagement_WPF\bin\Debug\DataAccess.exe
+D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\backup file\ProjectManagementOLD\ProjectManagement\ProjectManagement_WPF\ProjectManagement_WPF\bin\Debug\EntityFramework.dll
+D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\backup file\ProjectManagementOLD\ProjectManagement\ProjectManagement_WPF\ProjectManagement_WPF\bin\Debug\EntityFramework.SqlServer.dll
+D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\backup file\ProjectManagementOLD\ProjectManagement\ProjectManagement_WPF\ProjectManagement_WPF\bin\Debug\MaterialDesignColors.dll
+D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\backup file\ProjectManagementOLD\ProjectManagement\ProjectManagement_WPF\ProjectManagement_WPF\bin\Debug\MaterialDesignThemes.Wpf.dll
+D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\backup file\ProjectManagementOLD\ProjectManagement\ProjectManagement_WPF\ProjectManagement_WPF\bin\Debug\Common.exe
+D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\backup file\ProjectManagementOLD\ProjectManagement\ProjectManagement_WPF\ProjectManagement_WPF\bin\Debug\Core.exe
+D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\backup file\ProjectManagementOLD\ProjectManagement\ProjectManagement_WPF\ProjectManagement_WPF\bin\Debug\BussinessLogic.pdb
+D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\backup file\ProjectManagementOLD\ProjectManagement\ProjectManagement_WPF\ProjectManagement_WPF\bin\Debug\DataAccess.pdb
+D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\backup file\ProjectManagementOLD\ProjectManagement\ProjectManagement_WPF\ProjectManagement_WPF\bin\Debug\EntityFramework.xml
+D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\backup file\ProjectManagementOLD\ProjectManagement\ProjectManagement_WPF\ProjectManagement_WPF\bin\Debug\EntityFramework.SqlServer.xml
+D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\backup file\ProjectManagementOLD\ProjectManagement\ProjectManagement_WPF\ProjectManagement_WPF\bin\Debug\MaterialDesignThemes.Wpf.pdb
+D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\backup file\ProjectManagementOLD\ProjectManagement\ProjectManagement_WPF\ProjectManagement_WPF\bin\Debug\MaterialDesignThemes.Wpf.xml
+D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\backup file\ProjectManagementOLD\ProjectManagement\ProjectManagement_WPF\ProjectManagement_WPF\bin\Debug\Common.pdb
+D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\backup file\ProjectManagementOLD\ProjectManagement\ProjectManagement_WPF\ProjectManagement_WPF\bin\Debug\Core.pdb
+D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\backup file\ProjectManagementOLD\ProjectManagement\ProjectManagement_WPF\ProjectManagement_WPF\obj\Debug\App.baml
+D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\backup file\ProjectManagementOLD\ProjectManagement\ProjectManagement_WPF\ProjectManagement_WPF\obj\Debug\MenuMember\CreateProjectMember.baml
+D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\backup file\ProjectManagementOLD\ProjectManagement\ProjectManagement_WPF\ProjectManagement_WPF\obj\Debug\MenuMember\ProjectDashboard.baml
+D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\backup file\ProjectManagementOLD\ProjectManagement\ProjectManagement_WPF\ProjectManagement_WPF\obj\Debug\MenuMember\ProjectMember.baml
+D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\backup file\ProjectManagementOLD\ProjectManagement\ProjectManagement_WPF\ProjectManagement_WPF\obj\Debug\MenuMember\TaskDashboard.baml
+D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\backup file\ProjectManagementOLD\ProjectManagement\ProjectManagement_WPF\ProjectManagement_WPF\obj\Debug\MenuPM\ProjectDetailsPM.baml
+D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\backup file\ProjectManagementOLD\ProjectManagement\ProjectManagement_WPF\ProjectManagement_WPF\obj\Debug\MenuPM\TaskPM.baml
+D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\backup file\ProjectManagementOLD\ProjectManagement\ProjectManagement_WPF\ProjectManagement_WPF\obj\Debug\ProjectManager.baml
+D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\backup file\ProjectManagementOLD\ProjectManagement\ProjectManagement_WPF\ProjectManagement_WPF\obj\Debug\ProjectManagement_WPF.g.resources
+D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\backup file\ProjectManagementOLD\ProjectManagement\ProjectManagement_WPF\ProjectManagement_WPF\obj\Debug\ProjectManagement_WPF.Properties.Resources.resources
+D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\backup file\ProjectManagementOLD\ProjectManagement\ProjectManagement_WPF\ProjectManagement_WPF\obj\Debug\ProjectManagement_WPF.csproj.GenerateResource.Cache
+D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\backup file\ProjectManagementOLD\ProjectManagement\ProjectManagement_WPF\ProjectManagement_WPF\obj\Debug\ProjectManagement_WPF.exe
+D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\backup file\ProjectManagementOLD\ProjectManagement\ProjectManagement_WPF\ProjectManagement_WPF\obj\Debug\ProjectManagement_WPF.pdb
+>>>>>>> remotes/origin/Farin

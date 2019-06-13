@@ -8,6 +8,13 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
+<<<<<<< HEAD
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/logo%20mii.png")]
+=======
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("image/checklist4.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("image/home.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("image/task2.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("image/timer.png")]
+>>>>>>> remotes/origin/Farin
 
 

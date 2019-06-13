@@ -36,6 +36,7 @@ namespace Common.Repository.Application
                 e.GetBaseException();
                 return status;
             }
+<<<<<<< HEAD
         }
 
         public bool CheckAdmin(string email, string password)
@@ -60,6 +61,8 @@ namespace Common.Repository.Application
                 e.GetBaseException();
                 return status;
             }
+=======
+>>>>>>> remotes/origin/Farin
         }
     }
 }

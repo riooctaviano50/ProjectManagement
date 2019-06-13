@@ -51,9 +51,27 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Context\MyContext.cs" />
+<<<<<<< HEAD
     <Compile Include="Migrations\201906130814567_UpdateDatabase.cs" />
     <Compile Include="Migrations\201906130814567_UpdateDatabase.Designer.cs">
       <DependentUpon>201906130814567_UpdateDatabase.cs</DependentUpon>
+=======
+    <Compile Include="Migrations\201906101516090_AddingReplyandTicket.cs" />
+    <Compile Include="Migrations\201906101516090_AddingReplyandTicket.Designer.cs">
+      <DependentUpon>201906101516090_AddingReplyandTicket.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201906120128102_AllModelComplete.cs" />
+    <Compile Include="Migrations\201906120128102_AllModelComplete.Designer.cs">
+      <DependentUpon>201906120128102_AllModelComplete.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201906120623293_ProjectMemberRevision.cs" />
+    <Compile Include="Migrations\201906120623293_ProjectMemberRevision.Designer.cs">
+      <DependentUpon>201906120623293_ProjectMemberRevision.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201906130930384_addingDB.cs" />
+    <Compile Include="Migrations\201906130930384_addingDB.Designer.cs">
+      <DependentUpon>201906130930384_addingDB.cs</DependentUpon>
+>>>>>>> remotes/origin/Farin
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Employee.cs" />
@@ -77,6 +95,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="bin\Debug\DataAccess.exe.config" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
@@ -86,9 +105,31 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <EmbeddedResource Include="Migrations\201906130814567_UpdateDatabase.resx">
       <DependentUpon>201906130814567_UpdateDatabase.cs</DependentUpon>
     </EmbeddedResource>
+=======
+    <EmbeddedResource Include="Migrations\201906101516090_AddingReplyandTicket.resx">
+      <DependentUpon>201906101516090_AddingReplyandTicket.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201906120128102_AllModelComplete.resx">
+      <DependentUpon>201906120128102_AllModelComplete.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201906120623293_ProjectMemberRevision.resx">
+      <DependentUpon>201906120623293_ProjectMemberRevision.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201906130930384_addingDB.resx">
+      <DependentUpon>201906130930384_addingDB.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\DataAccess.exe" />
+    <Content Include="bin\Debug\DataAccess.pdb" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Release\" />
+>>>>>>> remotes/origin/Farin
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

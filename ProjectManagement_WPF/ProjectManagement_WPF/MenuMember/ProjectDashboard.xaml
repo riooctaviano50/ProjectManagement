@@ -1,0 +1,45 @@
+﻿<UserControl x:Class="ProjectManagement_WPF.MenuMember.ProjectDashboard"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:ProjectManagement_WPF.MenuMember"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="1002">
+    <StackPanel Background="WhiteSmoke">
+        <StackPanel Orientation="Horizontal" VerticalAlignment="Top" Margin="10 0">
+            <Label Content="Project" HorizontalAlignment="Left" VerticalAlignment="Center" FontSize="22" Margin="15"/>
+            <Button Content="Edit" Width="100" Height="35" Margin="682,5,0,0"/>
+        </StackPanel>
+        <StackPanel HorizontalAlignment="Center"  Orientation="Horizontal" Height="100" Margin="10,4,0,0" VerticalAlignment="Top" Width="742">
+            <Grid>
+                <Rectangle Fill="#19BD9B" Height="58" Margin="10,21,10,21" Width="225"/>
+                <Image Source="D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\Tugas Program\start learn mvs\ProjectManagement\ProjectManagement\ProjectManagement_WPF\ProjectManagement_WPF\Image\task2.png" HorizontalAlignment="Left" Width="50" Height="50" VerticalAlignment="Center" Margin="10,25,0,25"/>
+                <TextBox x:Name="txt_ProjectValue" Foreground="White" HorizontalAlignment="Center" Height="30" Margin="197,20,10,0" TextWrapping="Wrap" Text="15" VerticalAlignment="Top" Width="38" FontWeight="Bold" FontSize="16"/>
+                <TextBox x:Name="txt_TotalProject" Foreground="White" HorizontalAlignment="Center" Height="40" Margin="127,39,10,0" TextWrapping="Wrap" Text="Total Project" VerticalAlignment="Top" Width="108" FontWeight="Bold" FontSize="16"/>
+            </Grid>
+            <Grid>
+                <Rectangle Fill="#2B77E5" Height="58" Margin="20,21,0,21" Width="225"/>
+                <Image Source="D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\Tugas Program\start learn mvs\ProjectManagement\ProjectManagement\ProjectManagement_WPF\ProjectManagement_WPF\Image\checklist4.png" HorizontalAlignment="Left" Width="50" Height="50" VerticalAlignment="Center" Margin="20,25,0,25"/>
+                <TextBox x:Name="txt_Task" Foreground="White" HorizontalAlignment="Center" Height="30" Margin="197,19,10,0" TextWrapping="Wrap" Text="12" VerticalAlignment="Top" Width="38" FontWeight="Bold" FontSize="16"/>
+                <TextBox x:Name="txt_detailTask" Foreground="White" HorizontalAlignment="Center" Height="40" Margin="113,39,0,0" TextWrapping="Wrap" Text="Completed Task" VerticalAlignment="Top" Width="132" FontWeight="Bold" FontSize="16"/>
+            </Grid>
+            <Grid>
+                <Rectangle Fill="#DE6667" Height="58" Margin="30,21,0,21" Width="225"/>
+                <Image Source="D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\Tugas Program\start learn mvs\ProjectManagement\ProjectManagement\ProjectManagement_WPF\ProjectManagement_WPF\Image\timer.png" HorizontalAlignment="Left" Width="50" Height="50" VerticalAlignment="Center" Margin="30,25,0,25"/>
+                <TextBox x:Name="txt_Deadline" Foreground="White" HorizontalAlignment="Center" Height="33" Margin="217,21,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="38" FontWeight="Bold" FontSize="16"/>
+                <TextBox x:Name="txt_OverdueTask" Foreground="White" HorizontalAlignment="Center" Height="40" Margin="123,39,0,0" TextWrapping="Wrap" Text="Overdue Tasks" VerticalAlignment="Top" Width="132" FontWeight="Bold" FontSize="16"/>
+            </Grid>
+        </StackPanel>
+        <DataGrid x:Name="Grid_Project" HorizontalAlignment="Stretch"  Height="83"  Width="502">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Project Name" Binding="{Binding ProjectName}"/>
+                <DataGridTextColumn Header="Start Date" Binding="{Binding StartDate}"/>
+                <DataGridTextColumn Header="Due Date" Binding="{Binding DueDate}"/>
+                <DataGridTextColumn Header="Detail Project" Binding="{Binding DetailProject}"/>
+                <DataGridTextColumn Header="Status" Binding="{Binding Status}"/>
+                <DataGridTextColumn Header="Action" Binding="{Binding Action}"/>
+            </DataGrid.Columns>
+        </DataGrid>
+    </StackPanel>
+</UserControl>

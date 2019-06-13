@@ -4,17 +4,30 @@
 winexe
 C#
 .cs
+<<<<<<< HEAD
 D:\MII\PROJECT MANAGEMENT\ProjectManagement\ProjectManagement_WPF\ProjectManagement_WPF\obj\Debug\
+=======
+D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\backup file\ProjectManagementOLD\ProjectManagement\ProjectManagement_WPF\ProjectManagement_WPF\obj\Debug\
+>>>>>>> remotes/origin/Farin
 ProjectManagement_WPF
 none
 false
 DEBUG;TRACE
+<<<<<<< HEAD
 D:\MII\PROJECT MANAGEMENT\ProjectManagement\ProjectManagement_WPF\ProjectManagement_WPF\App.xaml
 7-2127458709
 
 15150262906
 21-1628455885
 DashboardMember.xaml;Login.xaml;MenuPM\ProjectDetailsPM.xaml;MenuPM\TabMenuProjectDetailPM\TabProjectDetailMember.xaml;MenuPM\TabMenuProjectDetailPM\TabTasks.xaml;MenuPM\TaskPM.xaml;ProjectManager.xaml;
+=======
+D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\backup file\ProjectManagementOLD\ProjectManagement\ProjectManagement_WPF\ProjectManagement_WPF\App.xaml
+7-676402365
+
+151873219322
+20836607318
+MenuMember\CreateProjectMember.xaml;MenuMember\ProjectDashboard.xaml;MenuMember\ProjectMember.xaml;MenuMember\TaskDashboard.xaml;MenuPM\ProjectDetailsPM.xaml;MenuPM\TaskPM.xaml;ProjectManager.xaml;
+>>>>>>> remotes/origin/Farin
 
 True
 

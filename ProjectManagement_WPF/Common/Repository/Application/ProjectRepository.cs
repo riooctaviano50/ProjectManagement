@@ -58,6 +58,7 @@ namespace Common.Repository.Application
             }
             return status;
         }
+        //'System.Data.Entity.Infrastructure.DbUpdateException' occurred in EntityFramework.dll
 
         public bool Update(int id, ProjectVM projectVM)
         {

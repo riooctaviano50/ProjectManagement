@@ -29,6 +29,7 @@ namespace DataAccess.Models
             this.ProjectStart = projectVM.ProjectStart;
             this.ProjectDeadline = projectVM.ProjectDeadline;
             this.ProjectDetails = projectVM.ProjectDetails;
+            this.Status_Id = projectVM.Status_Id;
             this.CreateDate = DateTimeOffset.Now.ToLocalTime();
         }
 

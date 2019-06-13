@@ -1,8 +1,12 @@
+<<<<<<< HEAD
 ﻿using BussinessLogic.Service;
 using BussinessLogic.Service.Application;
 using Common.Repository;
 using Common.Repository.Application;
 using ProjectManagement_WPF.MenuPM.TabMenuProjectDetailPM;
+=======
+﻿using ProjectManagement_WPF.MenuMember;
+>>>>>>> remotes/origin/Farin
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -44,12 +48,15 @@ namespace ProjectManagement_WPF.MenuPM
                     GridMain.Background = Brushes.CadetBlue;
                     break;
                 case 1:
+<<<<<<< HEAD
                     usc = new TabProjectDetailMember();
+=======
+                    usc = new CreateProjectMember();
+>>>>>>> remotes/origin/Farin
                     GridMain.Children.Add(usc);
                     break;
                 case 2:
-                    usc = new TabTasks();
-                    GridMain.Children.Add(usc);
+                    GridMain.Background = Brushes.Yellow;
                     break;
                 case 3:
                     GridMain.Background = Brushes.DarkBlue;

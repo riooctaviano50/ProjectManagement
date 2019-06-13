@@ -12,8 +12,11 @@ namespace DataAccess.Models
     [Table("TB_M_Ticket")]
     public class Ticket : BaseModel
     {
-        public int From_Userid { get; set; }
         public string Message { get; set; }
+        public Employee Employee { get; set; }
+
+        [ForeignKey("Employee")]
+        public int From_Userid { get; set; }
         public Employee Employee { get; set; }
 
         [ForeignKey("ProjectMember")]
@@ -30,6 +33,14 @@ namespace DataAccess.Models
             this.From_Userid = ticketVM.From_UserId;
             this.Message = ticketVM.Message;
             this.CreateDate = DateTimeOffset.Now.ToLocalTime();
+        }
+
+        public void Update(int id, TicketVM ticketVM)
+        {
+            this.Id = id;
+            this.From_Userid = ticketVM.From_UserId;
+            this.Message = ticketVM.Message;
+            this.UpdateDate = DateTimeOffset.Now.ToLocalTime();
         }
 
         public void Delete()
