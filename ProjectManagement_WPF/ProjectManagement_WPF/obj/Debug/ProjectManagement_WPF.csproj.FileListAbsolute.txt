@@ -101,3 +101,11 @@ D:\backup\ProjectManagement_WPF\ProjectManagement_WPF\obj\Debug\ProjectManagemen
 D:\backup\ProjectManagement_WPF\ProjectManagement_WPF\obj\Debug\ProjectManagement_WPF.csproj.CopyComplete
 D:\backup\ProjectManagement_WPF\ProjectManagement_WPF\obj\Debug\ProjectManagement_WPF.exe
 D:\backup\ProjectManagement_WPF\ProjectManagement_WPF\obj\Debug\ProjectManagement_WPF.pdb
+D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\Tugas Program\start learn mvs\ProjectManagement\ProjectManagement\ProjectManagement_WPF\ProjectManagement_WPF\obj\Debug\MenuPM\ProjectDetailsPM.g.cs
+D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\Tugas Program\start learn mvs\ProjectManagement\ProjectManagement\ProjectManagement_WPF\ProjectManagement_WPF\obj\Debug\MenuPM\TaskPM.g.cs
+D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\Tugas Program\start learn mvs\ProjectManagement\ProjectManagement\ProjectManagement_WPF\ProjectManagement_WPF\obj\Debug\MenuPM\ProjectDetailsPM.baml
+D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\Tugas Program\start learn mvs\ProjectManagement\ProjectManagement\ProjectManagement_WPF\ProjectManagement_WPF\obj\Debug\MenuPM\TaskPM.baml
+D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\Tugas Program\start learn mvs\ProjectManagement\ProjectManagement\ProjectManagement_WPF\ProjectManagement_WPF\obj\Debug\MenuMember\ProjectDashboard.g.cs
+D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\Tugas Program\start learn mvs\ProjectManagement\ProjectManagement\ProjectManagement_WPF\ProjectManagement_WPF\obj\Debug\MenuMember\TaskDashboard.g.cs
+D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\Tugas Program\start learn mvs\ProjectManagement\ProjectManagement\ProjectManagement_WPF\ProjectManagement_WPF\obj\Debug\MenuMember\ProjectDashboard.baml
+D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\Tugas Program\start learn mvs\ProjectManagement\ProjectManagement\ProjectManagement_WPF\ProjectManagement_WPF\obj\Debug\MenuMember\TaskDashboard.baml

@@ -5,10 +5,21 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:ProjectManagement_WPF.MenuMember"
              mc:Ignorable="d" 
-             d:DesignHeight="450" d:DesignWidth="800">
-    <Grid Background="#FFE5E5E5">
-        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="Projects" VerticalAlignment="Top"/>
-        <StackPanel HorizontalAlignment="Left" Orientation="Horizontal" Height="100" Margin="10,44,0,0" VerticalAlignment="Top" Width="742">
+             d:DesignHeight="450" d:DesignWidth="1002">
+    <StackPanel Background="WhiteSmoke">
+        <StackPanel Orientation="Horizontal" VerticalAlignment="Top" Margin="10 0">
+            <Label Content="Project Details" HorizontalAlignment="Left" VerticalAlignment="Center" FontSize="22" Margin="15"/>
+            <Button Content="Edit" Width="100" Height="35" Margin="682,5,0,0"/>
+        </StackPanel>
+        <Grid Width="980" Height="10" Background="Black" HorizontalAlignment="Left" Margin="10,0,10,0"/>
+        <StackPanel Orientation="Horizontal" VerticalAlignment="Top" Margin="10 0">
+            <Button Uid="0" Width="150" Content="Overview" Height="50" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="#FF2196F3"/>
+            <Button Uid="1" Width="150" Content="Member" Height="50" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="#FF2196F3"/>
+            <Button Uid="2" Width="150" Content="Tasks" Height="50" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="#FF2196F3"/>
+            <Button Uid="3" Width="150" Content="Tickets" Height="50" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="#FF2196F3"/>
+        </StackPanel>
+        <Grid x:Name="GridCursor" Width="150" Height="5" Background="#FF2196F3" HorizontalAlignment="Left" Margin="10 0"/>
+        <StackPanel HorizontalAlignment="Center"  Orientation="Horizontal" Height="100" Margin="10,4,0,0" VerticalAlignment="Top" Width="742">
             <Grid>
                 <Rectangle Fill="#19BD9B" Height="58" Margin="10,21,10,21" Width="225"/>
                 <Image Source="D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\Tugas Program\start learn mvs\ProjectManagement\ProjectManagement\ProjectManagement_WPF\ProjectManagement_WPF\Image\task2.png" HorizontalAlignment="Left" Width="50" Height="50" VerticalAlignment="Center" Margin="10,25,0,25"/>
@@ -28,33 +39,32 @@
                 <TextBox x:Name="txt_detailDeadline" Foreground="White" HorizontalAlignment="Center" Height="40" Margin="123,39,0,0" TextWrapping="Wrap" Text="Deadline Tasks" VerticalAlignment="Top" Width="132" FontWeight="Bold" FontSize="16"/>
             </Grid>
         </StackPanel>
-        <GroupBox x:Name="grp_OverdueProject" Header="Overdue Projects" HorizontalAlignment="Left" Margin="10,149,0,0" VerticalAlignment="Top" Width="322" Height="219">
-            <StackPanel Height="100" Orientation="Vertical" HorizontalAlignment="Left" VerticalAlignment="Top" Width="302">
-                <Label x:Name="lbl_OverdueProject" Content="No. Overdue Project"/>
-                <TextBox x:Name="txb_OverdueProject" Height="31" Background="White" TextWrapping="Wrap" Text=""/>
-                <DataGrid x:Name="Grid_OverdueProject" HorizontalAlignment="Left" Height="200" Width="300">
-                    <DataGrid.Columns>
-                        <DataGridTextColumn Header="Project" Binding="{Binding Path=Project}"/>
-                        <DataGridTextColumn Header="Status" Binding="{Binding Path=Status}"/>
-                    </DataGrid.Columns>
-                </DataGrid>
+        <Grid>
+            <GroupBox x:Name="grp_OverdueProject" Header="Overdue Projects" HorizontalAlignment="Left" Margin="10,-5,0,10" VerticalAlignment="Center"  Width="322" Height="219">
+                <StackPanel Height="100" Orientation="Vertical" HorizontalAlignment="Left" VerticalAlignment="Top" Width="302">
+                    <Label x:Name="lbl_OverdueProject" Content="No. Overdue Project"/>
+                    <TextBox x:Name="txb_OverdueProject" Height="31" Background="White" TextWrapping="Wrap" Text=""/>
+                    <DataGrid x:Name="Grid_OverdueProject" HorizontalAlignment="Left" Height="83" Width="300">
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Header="Project" Binding="{Binding Project}"/>
+                            <DataGridTextColumn Header="Status" Binding="{Binding Status}"/>
+                        </DataGrid.Columns>
+                    </DataGrid>
 
-            </StackPanel>
-        </GroupBox>
-        <GroupBox x:Name="grp_OverdueTask" Header="Overdue Task" HorizontalAlignment="Left" Margin="400,149,0,0" VerticalAlignment="Top" Height="219" Width="352">
-            <StackPanel Height="100" HorizontalAlignment="Left" Orientation="Vertical" VerticalAlignment="Top" Width="342">
-                <Label x:Name="lbl_OverdueTask" Content="No. Overdue Task"/>
-                <TextBox x:Name="txb_OverdueTask" Height="28" TextWrapping="Wrap" Text="" Background="White"/>
-                <DataGrid x:Name="Grid_OverdueTask" HorizontalAlignment="Left" Width="352" Height="219">
-                    <DataGrid.Columns>
-                        <DataGridTextColumn Header="Task" Binding="{Binding Path=Task}"/>
-                        <DataGridTextColumn Header="Status" Binding="{Binding Path=Status}"/>
-                    </DataGrid.Columns>
-                </DataGrid>
-
-
-            </StackPanel>
-
-        </GroupBox>
-    </Grid>
+                </StackPanel>
+            </GroupBox>
+            <GroupBox x:Name="grp_OverdueTask" Header="Overdue Task" HorizontalAlignment="Right" Margin="0,-5,0,0" VerticalAlignment="Top" Height="219" Width="352">
+                <StackPanel Height="100" HorizontalAlignment="Left" Orientation="Vertical" VerticalAlignment="Top" Width="342">
+                    <Label x:Name="lbl_OverdueTask" Content="No. Overdue Task"/>
+                    <TextBox x:Name="txb_OverdueTask" Height="28" TextWrapping="Wrap" Text="" Background="White"/>
+                    <DataGrid x:Name="Grid_OverdueTask" HorizontalAlignment="Left" Width="300" Height="83">
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Header="Task" Binding="{Binding Path=Task}"/>
+                            <DataGridTextColumn Header="Status" Binding="{Binding Path=Status}"/>
+                        </DataGrid.Columns>
+                    </DataGrid>
+                </StackPanel>
+            </GroupBox>
+        </Grid>
+    </StackPanel>
 </UserControl>
