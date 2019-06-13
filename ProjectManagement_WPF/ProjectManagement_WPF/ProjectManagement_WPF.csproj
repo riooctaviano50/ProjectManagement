@@ -166,5 +166,8 @@
     <Resource Include="Assets\task2.png" />
     <Resource Include="Assets\timer.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Task3.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

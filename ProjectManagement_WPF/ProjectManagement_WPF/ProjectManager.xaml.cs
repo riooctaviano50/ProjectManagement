@@ -24,6 +24,7 @@ namespace ProjectManagement_WPF
         public ProjectManager()
         {
             InitializeComponent();
+            GridMain.Children.Add(new ProjectMember());
         }
 
         private void ButtonOpenMenu_Click(object sender, RoutedEventArgs e)
@@ -47,15 +48,15 @@ namespace ProjectManagement_WPF
             {
                 case "ItemDashboard":
                     //new ProjectDashboard();
-                    usc = new ProjectDashboard();
-                    GridMain.Children.Add(usc);
-                    break;
-                case "ItemProject":
                     usc = new ProjectMember();
                     GridMain.Children.Add(usc);
                     break;
+                case "ItemProject":
+                    usc = new ProjectDetailsPM();
+                    GridMain.Children.Add(usc);
+                    break;
                 case "ItemTask":
-                    usc = new CreateProjectMember();
+                    usc = new TaskDashboard();
                     GridMain.Children.Add(usc);
                     break;
                 default:

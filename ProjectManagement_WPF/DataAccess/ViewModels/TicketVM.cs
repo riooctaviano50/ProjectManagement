@@ -21,5 +21,13 @@ namespace DataAccess.ViewModels
             this.Status_Id = status_Id;
         }
         public TicketVM() { }
+        public void Update(int id, int from_userid, string message, int project_Id, int status_Id)
+        {
+            this.Id = id;
+            this.From_UserId = from_userid;
+            this.Message = message;
+            this.Project_Id = project_Id;
+            this.Status_Id = status_Id;
+        }
     }
 }

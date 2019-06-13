@@ -9,16 +9,7 @@
     <StackPanel Background="WhiteSmoke">
         <StackPanel Orientation="Horizontal" VerticalAlignment="Top" Margin="10 0">
             <Label Content="Project Details" HorizontalAlignment="Left" VerticalAlignment="Center" FontSize="22" Margin="15"/>
-            <Button Content="Edit" Width="100" Height="35" Margin="682,5,0,0"/>
         </StackPanel>
-        <Grid Width="980" Height="10" Background="Black" HorizontalAlignment="Left" Margin="10,0,10,0"/>
-        <StackPanel Orientation="Horizontal" VerticalAlignment="Top" Margin="10 0">
-            <Button Uid="0" Width="150" Content="Overview" Height="50" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="#FF2196F3"/>
-            <Button Uid="1" Width="150" Content="Member" Height="50" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="#FF2196F3"/>
-            <Button Uid="2" Width="150" Content="Tasks" Height="50" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="#FF2196F3"/>
-            <Button Uid="3" Width="150" Content="Tickets" Height="50" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="#FF2196F3"/>
-        </StackPanel>
-        <Grid x:Name="GridCursor" Width="150" Height="5" Background="#FF2196F3" HorizontalAlignment="Left" Margin="10 0"/>
         <StackPanel HorizontalAlignment="Center"  Orientation="Horizontal" Height="100" Margin="10,4,0,0" VerticalAlignment="Top" Width="742">
             <Grid>
                 <Rectangle Fill="#19BD9B" Height="58" Margin="10,21,10,21" Width="225"/>
@@ -41,28 +32,31 @@
         </StackPanel>
         <Grid>
             <GroupBox x:Name="grp_OverdueProject" Header="Overdue Projects" HorizontalAlignment="Left" Margin="10,-5,0,10" VerticalAlignment="Center"  Width="322" Height="219">
-                <StackPanel Height="100" Orientation="Vertical" HorizontalAlignment="Left" VerticalAlignment="Top" Width="302">
-                    <Label x:Name="lbl_OverdueProject" Content="No. Overdue Project"/>
-                    <TextBox x:Name="txb_OverdueProject" Height="31" Background="White" TextWrapping="Wrap" Text=""/>
-                    <DataGrid x:Name="Grid_OverdueProject" HorizontalAlignment="Left" Height="83" Width="300">
-                        <DataGrid.Columns>
-                            <DataGridTextColumn Header="Project" Binding="{Binding Project}"/>
-                            <DataGridTextColumn Header="Status" Binding="{Binding Status}"/>
-                        </DataGrid.Columns>
-                    </DataGrid>
-
+                <StackPanel Height="170" Orientation="Vertical" HorizontalAlignment="Left" VerticalAlignment="Top" Width="302" Margin="0,0,0,-3">
+                    <Grid Height="176">
+                        <DataGrid x:Name="Grid_OverdueProject" HorizontalAlignment="Left" Height="83" Width="300" Margin="2,10,0,83">
+                            <DataGrid.Columns>
+                                <DataGridTextColumn Header="Project" Binding="{Binding Project}"/>
+                                <DataGridTextColumn Header="Status" Binding="{Binding Status}"/>
+                            </DataGrid.Columns>
+                        </DataGrid>
+                        <Label x:Name="lbl_OverdueProject" Content="No. Overdue Project" Margin="2,105,165,41"/>
+                        <TextBox x:Name="txb_OverdueProject" Background="White"  TextWrapping="Wrap" Text="" Margin="142,105,8,34"/>
+                    </Grid>
                 </StackPanel>
             </GroupBox>
-            <GroupBox x:Name="grp_OverdueTask" Header="Overdue Task" HorizontalAlignment="Right" Margin="0,-5,0,0" VerticalAlignment="Top" Height="219" Width="352">
-                <StackPanel Height="100" HorizontalAlignment="Left" Orientation="Vertical" VerticalAlignment="Top" Width="342">
-                    <Label x:Name="lbl_OverdueTask" Content="No. Overdue Task"/>
-                    <TextBox x:Name="txb_OverdueTask" Height="28" TextWrapping="Wrap" Text="" Background="White"/>
-                    <DataGrid x:Name="Grid_OverdueTask" HorizontalAlignment="Left" Width="300" Height="83">
-                        <DataGrid.Columns>
-                            <DataGridTextColumn Header="Task" Binding="{Binding Path=Task}"/>
-                            <DataGridTextColumn Header="Status" Binding="{Binding Path=Status}"/>
-                        </DataGrid.Columns>
-                    </DataGrid>
+            <GroupBox x:Name="grp_OverdueTask" Header="Overdue Task" HorizontalAlignment="Right" Margin="0,-5,10,0" VerticalAlignment="Top" Height="219" Width="352">
+                <StackPanel Height="174" HorizontalAlignment="Left" Orientation="Vertical" VerticalAlignment="Top" Width="342" Margin="0,0,0,-7">
+                    <Grid>
+                        <DataGrid x:Name="Grid_OverdueTask" HorizontalAlignment="Left" Width="300" Height="83" Margin="2,10,0,83">
+                            <DataGrid.Columns>
+                                <DataGridTextColumn Header="Task" Binding="{Binding Path=Task}"/>
+                                <DataGridTextColumn Header="Status" Binding="{Binding Path=Status}"/>
+                            </DataGrid.Columns>
+                        </DataGrid>
+                        <Label x:Name="lbl_OverdueTask" Content="No. Overdue Task" Margin="0,105,165,41"/>
+                        <TextBox x:Name="txb_OverdueTask" TextWrapping="Wrap" Text="" Background="White" Margin="142,105,42,34"/>
+                    </Grid>
                 </StackPanel>
             </GroupBox>
         </Grid>

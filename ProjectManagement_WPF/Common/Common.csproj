@@ -55,15 +55,15 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repository\Application\LoginRepository.cs" />
-    <Compile Include="Repository\Application\ProjectRepository.cs" />
+    <Compile Include="Repository\Application\ProjectMemberRepository.cs" />
+    <Compile Include="Repository\Application\RepliesRepository.cs" />
     <Compile Include="Repository\Application\RuleRepository.cs" />
     <Compile Include="Repository\Application\StatusRepository.cs" />
-    <Compile Include="Repository\Application\TaskRepository.cs" />
     <Compile Include="Repository\ILoginRepository.cs" />
-    <Compile Include="Repository\IProjectRepository.cs" />
+    <Compile Include="Repository\IProjectMemberRepository.cs" />
+    <Compile Include="Repository\IRepliesRepository.cs" />
     <Compile Include="Repository\IRuleRepository.cs" />
     <Compile Include="Repository\IStatusRepository.cs" />
-    <Compile Include="Repository\ITaskRepository.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

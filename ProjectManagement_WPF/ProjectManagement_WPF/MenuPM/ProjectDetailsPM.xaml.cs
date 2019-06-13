@@ -1,4 +1,4 @@
-﻿using ProjectManagement_WPF.MenuPM.TabMenuProjectDetailPM;
+﻿using ProjectManagement_WPF.MenuMember;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -40,11 +40,11 @@ namespace ProjectManagement_WPF.MenuPM
                     GridMain.Background = Brushes.CadetBlue;
                     break;
                 case 1:
-                    GridMain.Background = Brushes.Beige;
+                    usc = new CreateProjectMember();
+                    GridMain.Children.Add(usc);
                     break;
                 case 2:
-                    usc = new TabTasks();
-                    GridMain.Children.Add(usc);
+                    GridMain.Background = Brushes.Yellow;
                     break;
                 case 3:
                     GridMain.Background = Brushes.DarkBlue;

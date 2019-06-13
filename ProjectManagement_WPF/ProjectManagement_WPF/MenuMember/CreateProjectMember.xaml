@@ -9,17 +9,8 @@
     <StackPanel Background="WhiteSmoke">
         <StackPanel Orientation="Horizontal" VerticalAlignment="Top" Margin="10 0">
             <Label Content="Create Project" HorizontalAlignment="Left" VerticalAlignment="Center" FontSize="22" Margin="15"/>
-            <Button Content="Edit" Width="100" Height="35" Margin="682,5,0,0"/>
         </StackPanel>
-        <Grid Width="980" Height="10" Background="Black" HorizontalAlignment="Left" Margin="10,0,10,0"/>
-        <StackPanel Orientation="Horizontal" VerticalAlignment="Top" Margin="10 0">
-            <Button Uid="0" Width="150" Content="Overview" Height="50" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="#FF2196F3"/>
-            <Button Uid="1" Width="150" Content="Member" Height="50" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="#FF2196F3"/>
-            <Button Uid="2" Width="150" Content="Tasks" Height="50" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="#FF2196F3"/>
-            <Button Uid="3" Width="150" Content="Tickets" Height="50" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="#FF2196F3"/>
-        </StackPanel>
-      <Grid x:Name="GridCursor" Width="150" Height="5" Background="#FF2196F3" HorizontalAlignment="Left" Margin="10 0"/>
-      <StackPanel HorizontalAlignment="Left" Orientation="Vertical" Height="267" Margin="70,15,0,0" VerticalAlignment="Top" Width="406">
+        <StackPanel HorizontalAlignment="Left" Orientation="Vertical" Height="267" Margin="70,15,0,0" VerticalAlignment="Top" Width="406">
         <Grid>
           <Label x:Name="lbl_Name" Content="Name"/>
           <TextBox x:Name="txb_Name" Height="23" TextWrapping="Wrap" Text="" Background="White" Margin="90,0,20,0"/>
