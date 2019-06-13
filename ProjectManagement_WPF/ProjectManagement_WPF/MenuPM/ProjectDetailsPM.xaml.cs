@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ProjectManagement_WPF.MenuPM.TabMenuProjectDetailPM;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -23,6 +24,32 @@ namespace ProjectManagement_WPF.MenuPM
         public ProjectDetailsPM()
         {
             InitializeComponent();
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            int index = int.Parse(((Button)e.Source).Uid);
+            UserControl usc = null;
+            GridMain.Children.Clear();
+
+            GridCursor.Margin = new Thickness(10 + (150 * index), 0, 0, 0);
+
+            switch (index)
+            {
+                case 0:
+                    GridMain.Background = Brushes.CadetBlue;
+                    break;
+                case 1:
+                    GridMain.Background = Brushes.Beige;
+                    break;
+                case 2:
+                    usc = new TabTasks();
+                    GridMain.Children.Add(usc);
+                    break;
+                case 3:
+                    GridMain.Background = Brushes.DarkBlue;
+                    break;
+            }
         }
     }
 }
