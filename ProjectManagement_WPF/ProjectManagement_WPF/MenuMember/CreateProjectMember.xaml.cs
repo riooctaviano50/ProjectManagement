@@ -46,7 +46,7 @@ namespace ProjectManagement_WPF.MenuMember
                             projectVM.ProjectStart = Convert.ToDateTime(date_Start.Text);
                             projectVM.ProjectDeadline = Convert.ToDateTime(date_Due.Text);
                             projectVM.ProjectDetails = txb_DetailProject.Text;
-                            var result = iProjectService.Insert(projectVM);
+                            var result = iProjectService.Insert(projectVM); //Save Project
                             if (result)
                             {
                                 MessageBox.Show("Insert Succesfully");
