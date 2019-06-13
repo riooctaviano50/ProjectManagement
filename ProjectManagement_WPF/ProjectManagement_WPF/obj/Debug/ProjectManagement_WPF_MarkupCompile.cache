@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-D:\Rio\Tugas WPF\ProjectManagement_WPF\ProjectManagement_WPF\obj\Debug\
+D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\Tugas Program\start learn mvs\ProjectManagement\ProjectManagement\ProjectManagement_WPF\ProjectManagement_WPF\obj\Debug\
 ProjectManagement_WPF
 none
 false
 DEBUG;TRACE
-D:\Rio\Tugas WPF\ProjectManagement_WPF\ProjectManagement_WPF\App.xaml
-4482439471
+D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\Tugas Program\start learn mvs\ProjectManagement\ProjectManagement\ProjectManagement_WPF\ProjectManagement_WPF\App.xaml
+7-676402365
 
-8-961014778
-181191384216
-MenuPM\ProjectDetailsPM.xaml;MenuPM\TabMenuProjectDetailPM\TabTasks.xaml;MenuPM\TaskPM.xaml;ProjectManager.xaml;
+111703490610
+18-1781042307
+MenuMember\CreateProjectMember.xaml;MenuMember\ProjectDashboard.xaml;MenuMember\ProjectMember.xaml;MenuMember\TaskDashboard.xaml;MenuPM\ProjectDetailsPM.xaml;MenuPM\TaskPM.xaml;ProjectManager.xaml;
 
-False
+True
 
