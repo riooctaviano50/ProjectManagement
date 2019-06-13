@@ -55,9 +55,19 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Service\Application\ProjectMemberService.cs" />
+    <Compile Include="Service\Application\ProjectService.cs" />
     <Compile Include="Service\Application\RepliesService.cs" />
+    <Compile Include="Service\Application\RuleService.cs" />
+    <Compile Include="Service\Application\StatusService.cs" />
+    <Compile Include="Service\Application\TaskService.cs" />
+    <Compile Include="Service\Application\TicketService.cs" />
     <Compile Include="Service\IProjectMemberService.cs" />
+    <Compile Include="Service\IProjectService.cs" />
     <Compile Include="Service\IRepliesService.cs" />
+    <Compile Include="Service\IRuleService.cs" />
+    <Compile Include="Service\IStatusService.cs" />
+    <Compile Include="Service\ITaskService.cs" />
+    <Compile Include="Service\ITicketService.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

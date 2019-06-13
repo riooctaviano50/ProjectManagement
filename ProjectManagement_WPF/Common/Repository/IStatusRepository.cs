@@ -11,7 +11,6 @@ namespace Common.Repository
     public interface IStatusRepository
     {
         List<Status> Get();
-        List<Status> GetSearch(string Values);
         Status Get(int id);
         bool Insert(StatusVM statusVM);
         bool Update(int id, StatusVM statusVM);

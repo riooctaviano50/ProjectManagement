@@ -13,7 +13,10 @@ namespace DataAccess.Models
     public class Replies : BaseModel
     {
         public string Message { get; set; }
+
+        [ForeignKey("Employee")]
         public int Reply_From { get; set; }
+        public Employee Employee { get; set; }
         
         [ForeignKey("Ticket")]
         public int Ticket_Id { get; set; }

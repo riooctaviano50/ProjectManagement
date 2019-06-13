@@ -9,6 +9,7 @@ namespace DataAccess.ViewModels
     public class TaskVM
     {
         public int Id { get; set; }
+        public string Name { get; set; }
         public string Description { get; set; }
         public DateTime StartDate { get; set; }
         public DateTime DueDate { get; set; }
@@ -20,9 +21,10 @@ namespace DataAccess.ViewModels
 
         public TaskVM() { }
 
-        public TaskVM(string description, DateTime start, DateTime end, string priority,int assign_by,int assign_to, int status_id, int project_id)
+        public TaskVM(string description, string Name, DateTime start, DateTime end, string priority,int assign_by,int assign_to, int status_id, int project_id)
         {
             this.Description = description;
+            this.Name = Name;
             this.StartDate = start;
             this.DueDate = end;
             this.Priority = priority;
@@ -32,9 +34,10 @@ namespace DataAccess.ViewModels
             this.Project_Id = project_id;
         }
 
-        public void Update(int id, string description, DateTime start, DateTime end, string priority, int assign_by, int assign_to, int status_id, int project_id)
+        public void Update(int id, string description, string Name, DateTime start, DateTime end, string priority, int assign_by, int assign_to, int status_id, int project_id)
         {
             this.Id = id;
+            this.Name = Name;
             this.Description = description;
             this.StartDate = start;
             this.DueDate = end;

@@ -16,7 +16,9 @@ namespace DataAccess.Models
         public int Project_Id { get; set; }
         public Project Project { get; set; }
 
+        [ForeignKey("Employee")]
         public int User_Id { get; set; }
+        public Employee Employee { get; set; }
 
         [ForeignKey("Rule")]
         public int Rules_Id { get; set; }

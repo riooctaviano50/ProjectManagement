@@ -12,8 +12,11 @@ namespace DataAccess.Models
     [Table("TB_M_Ticket")]
     public class Ticket : BaseModel
     {
-        public int From_Userid { get; set; }
         public string Message { get; set; }
+
+        [ForeignKey("Employee")]
+        public int From_Userid { get; set; }
+        public Employee Employee { get; set; }
 
         [ForeignKey("ProjectMember")]
         public int Project_Id { get; set; }

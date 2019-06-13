@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Common.Repository
 {
-    interface IRuleRepository
+    public interface IRuleRepository
     {
         List<Rule> Get();
         List<Rule> GetSearch(string Values);

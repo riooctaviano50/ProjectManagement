@@ -38,3 +38,20 @@ D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\Tugas Program\start learn mvs\Pro
 D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\Tugas Program\start learn mvs\ProjectManagement\ProjectManagement\ProjectManagement_WPF\DataAccess\obj\Debug\DataAccess.csproj.GenerateResource.Cache
 D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\Tugas Program\start learn mvs\ProjectManagement\ProjectManagement\ProjectManagement_WPF\DataAccess\obj\Debug\DataAccess.Migrations.AllModelComplete.resources
 D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\Tugas Program\start learn mvs\ProjectManagement\ProjectManagement\ProjectManagement_WPF\DataAccess\obj\Debug\DataAccess.Migrations.ProjectMemberRevision.resources
+D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\backup file\ProjectManagementOLD\ProjectManagement\ProjectManagement_WPF\DataAccess\bin\Debug\DataAccess.exe.config
+D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\backup file\ProjectManagementOLD\ProjectManagement\ProjectManagement_WPF\DataAccess\bin\Debug\DataAccess.exe
+D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\backup file\ProjectManagementOLD\ProjectManagement\ProjectManagement_WPF\DataAccess\bin\Debug\DataAccess.pdb
+D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\backup file\ProjectManagementOLD\ProjectManagement\ProjectManagement_WPF\DataAccess\bin\Debug\Core.exe
+D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\backup file\ProjectManagementOLD\ProjectManagement\ProjectManagement_WPF\DataAccess\bin\Debug\EntityFramework.dll
+D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\backup file\ProjectManagementOLD\ProjectManagement\ProjectManagement_WPF\DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\backup file\ProjectManagementOLD\ProjectManagement\ProjectManagement_WPF\DataAccess\bin\Debug\Core.pdb
+D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\backup file\ProjectManagementOLD\ProjectManagement\ProjectManagement_WPF\DataAccess\bin\Debug\EntityFramework.xml
+D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\backup file\ProjectManagementOLD\ProjectManagement\ProjectManagement_WPF\DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\backup file\ProjectManagementOLD\ProjectManagement\ProjectManagement_WPF\DataAccess\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache
+D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\backup file\ProjectManagementOLD\ProjectManagement\ProjectManagement_WPF\DataAccess\obj\Debug\DataAccess.Migrations.AddingReplyandTicket.resources
+D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\backup file\ProjectManagementOLD\ProjectManagement\ProjectManagement_WPF\DataAccess\obj\Debug\DataAccess.Migrations.AllModelComplete.resources
+D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\backup file\ProjectManagementOLD\ProjectManagement\ProjectManagement_WPF\DataAccess\obj\Debug\DataAccess.Migrations.ProjectMemberRevision.resources
+D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\backup file\ProjectManagementOLD\ProjectManagement\ProjectManagement_WPF\DataAccess\obj\Debug\DataAccess.csproj.GenerateResource.Cache
+D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\backup file\ProjectManagementOLD\ProjectManagement\ProjectManagement_WPF\DataAccess\obj\Debug\DataAccess.exe
+D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\backup file\ProjectManagementOLD\ProjectManagement\ProjectManagement_WPF\DataAccess\obj\Debug\DataAccess.pdb
+D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\backup file\ProjectManagementOLD\ProjectManagement\ProjectManagement_WPF\DataAccess\obj\Debug\DataAccess.Migrations.addingDB.resources

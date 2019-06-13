@@ -1,16 +1,16 @@
-﻿using DataAccess.Context;
-using DataAccess.Models;
-using DataAccess.ViewModels;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using DataAccess.Context;
+using DataAccess.Models;
+using DataAccess.ViewModels;
 
 namespace Common.Repository.Application
 {
-    public class StatusRepository
+    public class StatusRepository : IStatusRepository
     {
         MyContext myContext = new MyContext();
         bool status = false;
@@ -22,7 +22,7 @@ namespace Common.Repository.Application
             {
                 get.Delete();
                 myContext.Entry(get).State = EntityState.Modified;
-                var result = myContext.SaveChanges();
+                myContext.SaveChanges();
                 return true;
             }
             else
@@ -33,22 +33,13 @@ namespace Common.Repository.Application
 
         public List<Status> Get()
         {
-            var get = myContext.Statuses.Where(X => X.IsDelete == false).ToList();
+            var get = myContext.Statuses.Where(x => x.IsDelete == false).ToList();
             return get;
         }
 
         public Status Get(int id)
         {
             var get = myContext.Statuses.Find(id);
-            return get;
-        }
-
-        public List<Status> GetSearch(string Values)
-        {
-            var get = myContext.Statuses.Where
-            (x => (x.Name.Contains(Values) ||
-            x.Id.ToString().Contains(Values)) &&
-            x.IsDelete == false).ToList();
             return get;
         }
 
@@ -75,12 +66,12 @@ namespace Common.Repository.Application
             {
                 get.Update(id, statusVM);
                 myContext.Entry(get).State = EntityState.Modified;
-                var result = myContext.SaveChanges();
+                myContext.SaveChanges();
                 return true;
             }
             else
             {
-                return true;
+                return false;
             }
         }
     }

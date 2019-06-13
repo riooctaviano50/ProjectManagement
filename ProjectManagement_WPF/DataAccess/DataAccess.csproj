@@ -63,6 +63,10 @@
     <Compile Include="Migrations\201906120623293_ProjectMemberRevision.Designer.cs">
       <DependentUpon>201906120623293_ProjectMemberRevision.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201906130930384_addingDB.cs" />
+    <Compile Include="Migrations\201906130930384_addingDB.Designer.cs">
+      <DependentUpon>201906130930384_addingDB.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Employee.cs" />
     <Compile Include="Models\Project.cs" />
@@ -85,6 +89,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="bin\Debug\DataAccess.exe.config" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
@@ -103,6 +108,16 @@
     <EmbeddedResource Include="Migrations\201906120623293_ProjectMemberRevision.resx">
       <DependentUpon>201906120623293_ProjectMemberRevision.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201906130930384_addingDB.resx">
+      <DependentUpon>201906130930384_addingDB.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\DataAccess.exe" />
+    <Content Include="bin\Debug\DataAccess.pdb" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Release\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

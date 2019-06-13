@@ -169,5 +169,15 @@
   <ItemGroup>
     <Resource Include="Image\Task3.png" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BussinessLogic\BussinessLogic.csproj">
+      <Project>{7F58C903-AA4D-4638-854E-B07C522B0303}</Project>
+      <Name>BussinessLogic</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DataAccess\DataAccess.csproj">
+      <Project>{618889DE-74C9-4FB0-8B04-6C5CC6B00441}</Project>
+      <Name>DataAccess</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

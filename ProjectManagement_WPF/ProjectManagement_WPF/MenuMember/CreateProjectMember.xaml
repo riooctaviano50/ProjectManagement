@@ -11,23 +11,23 @@
             <Label Content="Create Project" HorizontalAlignment="Left" VerticalAlignment="Center" FontSize="22" Margin="15"/>
         </StackPanel>
         <StackPanel HorizontalAlignment="Left" Orientation="Vertical" Height="267" Margin="70,15,0,0" VerticalAlignment="Top" Width="406">
-        <Grid>
-          <Label x:Name="lbl_Name" Content="Name"/>
-          <TextBox x:Name="txb_Name" Height="23" TextWrapping="Wrap" Text="" Background="White" Margin="90,0,20,0"/>
-        </Grid>
-        <Grid>
-          <Label x:Name="lbl_StartDate" Content="Start Date" Margin="0,10,0,0"/>
-          <DatePicker HorizontalAlignment = "Left" Background="White" Margin = "90,10,20,0" VerticalAlignment = "Top" Width="206"/>
-        </Grid>
-        <Grid>
-          <Label x:Name="lbl_DueDate" Content="Due Date" Margin="0,10,0,0"/>
-          <DatePicker HorizontalAlignment = "Left" Background="White" Margin = "90,10,20,0" VerticalAlignment = "Top" Width="206"/>
-        </Grid>
-        <Grid>
-          <Label x:Name="lbl_DetailProject" Margin="0,10,0,0" Content="Detail Project"/>
-          <TextBox x:Name="txb_DetailProject" Margin="90,10,20,0" Height="67" TextWrapping="Wrap" Text="" Background="White"/>
-        </Grid>
-        <Button x:Name="button" HorizontalAlignment="Right" Content="Save" Margin="0,10,0,0" d:LayoutOverrides="Height" Background="#2CC168"/>
-      </StackPanel>
+            <Grid>
+                <Label x:Name="lbl_Name" Content="Name"/>
+                <TextBox x:Name="txb_Name" TextWrapping="Wrap" Text="" Background="White" Margin="90,2,20,0"/>
+            </Grid>
+            <Grid>
+                <Label x:Name="lbl_StartDate" Content="Start Date" Margin="0,10,0,0"/>
+                <DatePicker x:Name="date_Start" HorizontalAlignment = "Left" Background="White" Margin = "90,10,20,0" VerticalAlignment = "Top" Width="206"/>
+            </Grid>
+            <Grid>
+                <Label x:Name="lbl_DueDate" Content="Due Date" Margin="0,10,0,0"/>
+                <DatePicker x:Name="date_Due" HorizontalAlignment = "Left" Background="White" Margin = "90,10,20,0" VerticalAlignment = "Top" Width="206"/>
+            </Grid>
+            <Grid>
+                <Label x:Name="lbl_DetailProject" Margin="0,10,0,0" Content="Detail Project"/>
+                <TextBox x:Name="txb_DetailProject" Margin="90,10,20,0" Height="67" TextWrapping="Wrap" Text="" Background="White"/>
+            </Grid>
+            <Button x:Name="button" HorizontalAlignment="Right" Content="Save" Margin="0,10,0,0" d:LayoutOverrides="Height" Background="#2CC168" Click="button_Click"/>
+        </StackPanel>
     </StackPanel>
 </UserControl>

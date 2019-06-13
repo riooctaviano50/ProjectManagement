@@ -17,18 +17,20 @@ namespace DataAccess.Models
         public DateTime StartDate { get; set; }
         public DateTime DueDate { get; set; }
         public string Priority { get; set; }
-        public int AssignBy { get; set; }
         public int AssignTo { get; set; }
 
         [ForeignKey("Status")]
         public int Status_Id { get; set; }
         public Status Status { get; set; }
 
-
+        [ForeignKey("Employee")]
+        public int AssignBy { get; set; }
+        public Employee Employee { get; set; }
 
         [ForeignKey("Project")]
         public int Project_Id { get; set; }
         public Project Project { get; set; }
+
 
         public Task() { }
 

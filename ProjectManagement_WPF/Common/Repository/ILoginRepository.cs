@@ -10,11 +10,8 @@ namespace Common.Repository
 {
     public interface ILoginRepository
     {
-        List<Employee> Get();
-        List<Employee> GetSearch(String values);
-        Employee Get(int id);
-        bool Insert(EmployeeVM employeeVM);
-        bool Update(int id, EmployeeVM employeeVM);
-        bool Delete(int id);
+        Employee GetLogin(string email, string password); 
     }
+
+
 }

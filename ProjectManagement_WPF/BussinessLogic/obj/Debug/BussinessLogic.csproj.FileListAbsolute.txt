@@ -19,3 +19,19 @@ D:\Rio\Tugas WPF\ProjectManagement\Project Management WPF\ProjectManagement_WPF\
 D:\Rio\Tugas WPF\ProjectManagement\Project Management WPF\ProjectManagement_WPF\BussinessLogic\obj\Debug\BussinessLogic.csproj.CopyComplete
 D:\Rio\Tugas WPF\ProjectManagement\Project Management WPF\ProjectManagement_WPF\BussinessLogic\obj\Debug\BussinessLogic.exe
 D:\Rio\Tugas WPF\ProjectManagement\Project Management WPF\ProjectManagement_WPF\BussinessLogic\obj\Debug\BussinessLogic.pdb
+D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\backup file\ProjectManagementOLD\ProjectManagement\ProjectManagement_WPF\BussinessLogic\obj\Debug\BussinessLogic.csprojResolveAssemblyReference.cache
+D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\backup file\ProjectManagementOLD\ProjectManagement\ProjectManagement_WPF\BussinessLogic\bin\Debug\BussinessLogic.exe.config
+D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\backup file\ProjectManagementOLD\ProjectManagement\ProjectManagement_WPF\BussinessLogic\bin\Debug\BussinessLogic.exe
+D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\backup file\ProjectManagementOLD\ProjectManagement\ProjectManagement_WPF\BussinessLogic\bin\Debug\BussinessLogic.pdb
+D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\backup file\ProjectManagementOLD\ProjectManagement\ProjectManagement_WPF\BussinessLogic\bin\Debug\Common.exe
+D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\backup file\ProjectManagementOLD\ProjectManagement\ProjectManagement_WPF\BussinessLogic\bin\Debug\Core.exe
+D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\backup file\ProjectManagementOLD\ProjectManagement\ProjectManagement_WPF\BussinessLogic\bin\Debug\DataAccess.exe
+D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\backup file\ProjectManagementOLD\ProjectManagement\ProjectManagement_WPF\BussinessLogic\bin\Debug\EntityFramework.dll
+D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\backup file\ProjectManagementOLD\ProjectManagement\ProjectManagement_WPF\BussinessLogic\bin\Debug\EntityFramework.SqlServer.dll
+D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\backup file\ProjectManagementOLD\ProjectManagement\ProjectManagement_WPF\BussinessLogic\bin\Debug\Common.pdb
+D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\backup file\ProjectManagementOLD\ProjectManagement\ProjectManagement_WPF\BussinessLogic\bin\Debug\Core.pdb
+D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\backup file\ProjectManagementOLD\ProjectManagement\ProjectManagement_WPF\BussinessLogic\bin\Debug\DataAccess.pdb
+D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\backup file\ProjectManagementOLD\ProjectManagement\ProjectManagement_WPF\BussinessLogic\bin\Debug\EntityFramework.xml
+D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\backup file\ProjectManagementOLD\ProjectManagement\ProjectManagement_WPF\BussinessLogic\bin\Debug\EntityFramework.SqlServer.xml
+D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\backup file\ProjectManagementOLD\ProjectManagement\ProjectManagement_WPF\BussinessLogic\obj\Debug\BussinessLogic.exe
+D:\Farin\Kerjaaan bootcamp\Kerjaan punya Yosan\backup file\ProjectManagementOLD\ProjectManagement\ProjectManagement_WPF\BussinessLogic\obj\Debug\BussinessLogic.pdb
