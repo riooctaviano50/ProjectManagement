@@ -14,6 +14,7 @@ namespace DataAccess.Models
     {
         public int From_Userid { get; set; }
         public string Message { get; set; }
+        public Employee Employee { get; set; }
 
         [ForeignKey("ProjectMember")]
         public int Project_Id { get; set; }

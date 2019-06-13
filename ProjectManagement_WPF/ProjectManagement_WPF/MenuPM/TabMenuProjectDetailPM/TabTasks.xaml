@@ -9,13 +9,6 @@
              d:DesignHeight="550" d:DesignWidth="1290">
     <Grid Background="WhiteSmoke">
         <GroupBox Header="Tasks" HorizontalAlignment="Left" Height="530" Margin="10,10,0,0" VerticalAlignment="Top" Width="740"/>
-        <ListView x:Name="ListViewMenu" ItemsSource="{Binding TaskList}" Foreground="#FF5C99D6" Width="715" ScrollViewer.HorizontalScrollBarVisibility="Disabled" SelectionChanged="ListViewMenu_SelectionChanged" Margin="10,48,546,10">
-            <ListView.View>
-                <GridView>
-                    <GridViewColumn DisplayMemberBinding="{Binding Name}"></GridViewColumn>
-                </GridView>
-            </ListView.View>
-        </ListView>
 
         <GroupBox Header="Add Tasks" HorizontalAlignment="Left" Height="530" Margin="764,10,0,0" VerticalAlignment="Top" Width="510">
             <Grid Background="White" Margin="0,0,0,0">

@@ -74,13 +74,25 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="DashboardMember.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Login.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="MenuPM\ProjectDetailsPM.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="MenuPM\TabMenuProjectDetailPM\TabTasks.xaml">
+    <Page Include="MenuPM\TabMenuProjectDetailPM\TabProjectDetailMember.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MenuPM\TabMenuProjectDetailPM\TabTasks.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
     <Page Include="MenuPM\TaskPM.xaml">
       <SubType>Designer</SubType>
@@ -92,8 +104,17 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DashboardMember.xaml.cs">
+      <DependentUpon>DashboardMember.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Login.xaml.cs">
+      <DependentUpon>Login.xaml</DependentUpon>
+    </Compile>
     <Compile Include="MenuPM\ProjectDetailsPM.xaml.cs">
       <DependentUpon>ProjectDetailsPM.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MenuPM\TabMenuProjectDetailPM\TabProjectDetailMember.xaml.cs">
+      <DependentUpon>TabProjectDetailMember.xaml</DependentUpon>
     </Compile>
     <Compile Include="MenuPM\TabMenuProjectDetailPM\TabTasks.xaml.cs">
       <DependentUpon>TabTasks.xaml</DependentUpon>
@@ -141,6 +162,23 @@
     <Resource Include="Assets\task.png" />
     <Resource Include="Assets\task2.png" />
     <Resource Include="Assets\timer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BussinessLogic\BussinessLogic.csproj">
+      <Project>{7F58C903-AA4D-4638-854E-B07C522B0303}</Project>
+      <Name>BussinessLogic</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Common\Common.csproj">
+      <Project>{1C99AFB2-1335-48A8-9E99-92F4ADA659FC}</Project>
+      <Name>Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DataAccess\DataAccess.csproj">
+      <Project>{618889DE-74C9-4FB0-8B04-6C5CC6B00441}</Project>
+      <Name>DataAccess</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="images\logo MII.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
