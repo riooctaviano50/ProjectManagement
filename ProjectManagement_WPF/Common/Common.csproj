@@ -59,11 +59,13 @@
     <Compile Include="Repository\Application\RuleRepository.cs" />
     <Compile Include="Repository\Application\StatusRepository.cs" />
     <Compile Include="Repository\Application\TaskRepository.cs" />
+    <Compile Include="Repository\Application\TicketRepository.cs" />
     <Compile Include="Repository\ILoginRepository.cs" />
     <Compile Include="Repository\IProjectRepository.cs" />
     <Compile Include="Repository\IRuleRepository.cs" />
     <Compile Include="Repository\IStatusRepository.cs" />
     <Compile Include="Repository\ITaskRepository.cs" />
+    <Compile Include="Repository\ITicketRepository.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
