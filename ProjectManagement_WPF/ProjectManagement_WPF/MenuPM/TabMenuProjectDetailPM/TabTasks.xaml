@@ -1,0 +1,52 @@
+﻿<UserControl x:Class="ProjectManagement_WPF.MenuPM.TabMenuProjectDetailPM.TabTasks"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:ProjectManagement_WPF.MenuPM.TabMenuProjectDetailPM"
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+             mc:Ignorable="d" 
+             d:DesignHeight="550" d:DesignWidth="1290">
+    <Grid Background="WhiteSmoke">
+        <GroupBox Header="Tasks" HorizontalAlignment="Left" Height="530" Margin="10,10,0,0" VerticalAlignment="Top" Width="740"/>
+        <ListView x:Name="ListViewMenu" ItemsSource="{Binding TaskList}" Foreground="#FF5C99D6" Width="715" ScrollViewer.HorizontalScrollBarVisibility="Disabled" SelectionChanged="ListViewMenu_SelectionChanged" Margin="10,48,546,10">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn DisplayMemberBinding="{Binding Name}"></GridViewColumn>
+                </GridView>
+            </ListView.View>
+        </ListView>
+
+        <GroupBox Header="Add Tasks" HorizontalAlignment="Left" Height="530" Margin="764,10,0,0" VerticalAlignment="Top" Width="510">
+            <Grid Background="White" Margin="0,0,0,0">
+                <TextBlock HorizontalAlignment="Left" Margin="14,17,0,0" TextWrapping="Wrap" Text="Name" VerticalAlignment="Top" FontSize="16"/>
+                <TextBox HorizontalAlignment="Left" Height="31" Margin="162,8,10,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="320" FontSize="14"/>
+                <TextBlock HorizontalAlignment="Left" Margin="14,55,0,0" TextWrapping="Wrap" Text="Start Date" VerticalAlignment="Top" FontSize="16"/>
+                <DatePicker HorizontalAlignment="Left" Margin="162,49,10,0" VerticalAlignment="Top" Width="320" FontSize="14"/>
+                <TextBlock HorizontalAlignment="Left" Margin="14,92,0,0" TextWrapping="Wrap" Text="Due Date" VerticalAlignment="Top" FontSize="16"/>
+                <DatePicker HorizontalAlignment="Left" Margin="162,87,0,0" VerticalAlignment="Top" Width="320" FontSize="14"/>
+                <TextBlock HorizontalAlignment="Left" Margin="14,129,0,0" TextWrapping="Wrap" Text="Assign To" VerticalAlignment="Top" FontSize="16"/>
+                <ComboBox x:Name="cmb_assign" DisplayMemberPath="Name" SelectedValue="User_Id" HorizontalAlignment="Left" Margin="162,123,0,0" VerticalAlignment="Top" Width="320"/>
+                <TextBlock HorizontalAlignment="Left" Margin="14,172,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="16" Text="Description"/>
+                <RichTextBox HorizontalAlignment="Left" Height="100" Margin="162,171,0,0" VerticalAlignment="Top" Width="320">
+                    <FlowDocument>
+                        <Paragraph>
+
+                        </Paragraph>
+                    </FlowDocument>
+                </RichTextBox>
+                <TextBlock HorizontalAlignment="Left" Margin="14,293,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="16" Text="Status"/>
+                <ComboBox x:Name="cmb_status" DisplayMemberPath="Name" SelectedValue="Status_Id" HorizontalAlignment="Left" Height="31" Margin="162,284,0,0"  VerticalAlignment="Top" Width="320" FontSize="14"/>
+                <TextBlock HorizontalAlignment="Left" Margin="14,333,0,0" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="16" Text="Priority"/>
+                <ComboBox x:Name="cmb_priority" Text="Select Priority" HorizontalAlignment="Left" Height="31" Margin="162,322,0,0"  VerticalAlignment="Top" Width="320" FontSize="14">
+                    <ComboBoxItem Content="Low"/>
+                    <ComboBoxItem Content="Medium"/>
+                    <ComboBoxItem Content="High"/>
+                </ComboBox>
+                <Button Content="Save" HorizontalAlignment="Left" Margin="364,421,0,0" VerticalAlignment="Top" Width="118" Height="47" FontSize="18"/>
+            </Grid>
+        </GroupBox>
+        
+
+    </Grid>
+</UserControl>
