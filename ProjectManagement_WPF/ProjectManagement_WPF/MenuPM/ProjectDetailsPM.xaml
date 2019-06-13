@@ -4,6 +4,7 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:ProjectManagement_WPF.MenuPM"
+             xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
              mc:Ignorable="d" Width="1300" Height="680">
     <StackPanel Background="AliceBlue">
         <StackPanel Orientation="Horizontal" VerticalAlignment="Top" Margin="10 0">
@@ -18,7 +19,53 @@
             <Button Uid="3" Width="150" Content="Tickets" Height="50" Background="{x:Null}" BorderBrush="{x:Null}" Foreground="#FF2196F3" Click="Button_Click"/>
         </StackPanel>
         <Grid x:Name="GridCursor" Width="150" Height="5" Background="#FF2196F3" HorizontalAlignment="Left" Margin="10 0"/>
-        <Grid x:Name="GridMain" Margin="10,0" Height="540"/>
+        <Grid x:Name="GridMain" Margin="10,0" Height="540">
+            <GroupBox x:Name="groupBox_Overview" Header="Project Overview" HorizontalAlignment="Left" Margin="34,28,0,0" VerticalAlignment="Top" Height="174" Width="387">
+                <ListBox x:Name="listBox_ProjectReview" Height="144" VerticalAlignment="Top" Width="377" Margin="0,-18,0,0">
+                    <Label x:Name="label" Content="Project ID" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="16" Margin="10,18,0,-10" FontWeight="Bold"/>
+                    <Label x:Name="label1" Content="Project Name" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="16" Margin="10,-10,0,-10" FontWeight="Bold"/>
+                    <Label x:Name="label2" Content="Start Date" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="16" Margin="10,-12,0,-10" FontWeight="Bold"/>
+                    <Label x:Name="label3" Content="Due Date" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="16" Margin="10,-12,0,-10" FontWeight="Bold"/>
+                    <TextBox x:Name="txb_ProjectIdOverview" Height="23" TextWrapping="Wrap" Text="" Width="120" Margin="150,-200,0,-10"/>
+                    <TextBox x:Name="txb_ProjectNameOverview" HorizontalAlignment="Left" Height="23" Width="120" Margin="150,-180,0,-10"/>
+                    <TextBox x:Name="txb_StartDateOverview" HorizontalAlignment="Left" Height="23" Width="120" Margin="150,-160,0,-10"/>
+                    <TextBox x:Name="txb_DueDateOverview" HorizontalAlignment="Left" Height="23" Width="120" Margin="150,-150,0,-10"/>
+                </ListBox>
+            </GroupBox>
+            <GroupBox x:Name="groupBox_OpenTasks" Header="Open Tasks" HorizontalAlignment="Left" Margin="34,232,0,0" VerticalAlignment="Top" Height="166" Width="387">
+                <ListBox x:Name="listBox_OpenTask" Height="116" VerticalAlignment="Top" Width="377" Margin="0,-18,0,0">
+                    <Label x:Name="labelTitle" Content="Title" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="16" Margin="10,18,0,-10" FontWeight="Bold"/>
+                    <Label x:Name="labelDuedate" Content="DeDate" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="16" Margin="10,-10,0,-10" FontWeight="Bold"/>
+                    <TextBox x:Name="txb_TitleOverview" Height="23" TextWrapping="Wrap" Text="" Width="120" Margin="150,-100,0,-10"/>
+                    <TextBox x:Name="txb_FixBugsOverview" HorizontalAlignment="Left" Height="23" Width="120" Margin="150,-80,0,-10"/>
+                </ListBox>
+            </GroupBox>
+            <GroupBox x:Name="groupBox_ProjectStatistics" Header="Project Statistics" HorizontalAlignment="Left" Margin="516,28,0,0" VerticalAlignment="Top" Height="174" Width="735">
+                <StackPanel Height="130" Margin="0,0,0,-8" VerticalAlignment="Top" Width="728">
+                    <Grid>
+                        <materialDesign:PackIcon Kind="ViewList" Height="97" Width="183" Foreground="#FF007AFF" Margin="16,2,0,0"/>
+                        <Label x:Name="label10" Content="1 Open Task" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="16" Margin="58,80,0,-10" FontWeight="Bold"/>
+                        <materialDesign:PackIcon Kind="AccountGroup" Height="97" Width="183" Foreground="#FFFF5700" Margin="272,0,0,0"/>
+                        <Label x:Name="label11" Content="10 Member Assigned" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="16" Margin="274,80,0,-10" FontWeight="Bold" Foreground="#FFFF5700"/>
+                        <materialDesign:PackIcon Kind="ClockOutline" Height="87" Width="177" Foreground="#FFFF001D" Margin="520,10,0,0"/>
+                        <Label x:Name="label12" Content="5 Days Left" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="16" Margin="560,84,0,-14" FontWeight="Bold" Foreground="#FFFF001D"/>
+                    </Grid>
+                </StackPanel>
+            </GroupBox>
+            <GroupBox x:Name="groupBox_Member" Header="Members" HorizontalAlignment="Left" Margin="516,232,0,0" VerticalAlignment="Top" Height="166" Width="347">
+                <StackPanel Width="334" Margin="0,-42,0,-6" Orientation="Vertical">
+                    <Grid>
+                        <materialDesign:PackIcon Kind="Account" Height="65" Width="49" Foreground="#FF007AFF" Margin="10,30,0,0"/>
+                        <materialDesign:PackIcon Kind="Account" Height="58" Width="49" Foreground="#FF007AFF" Margin="10,95,0,0"/>
+                        <TextBox x:Name="txb_NameOverview" HorizontalAlignment="Left" Height="33" Margin="80,30,0,0" TextWrapping="Wrap" Text="Dewi Aprliani" VerticalAlignment="Top" Width="120" FontSize="16" FontWeight="Bold"/>
+                        <TextBox x:Name="txb_EmailOverview" HorizontalAlignment="Left" Height="33" Margin="80,60,0,0" TextWrapping="Wrap" Text="dewiapril1996@Gmail.com" VerticalAlignment="Top" Width="244" FontSize="16" FontWeight="Bold"/>
+                        <TextBox x:Name="txb_NameOverview1" HorizontalAlignment="Left" Height="33" Margin="80,90,0,0" TextWrapping="Wrap" Text="Dewi Aprliani" VerticalAlignment="Top" Width="120" FontSize="16" FontWeight="Bold"/>
+                        <TextBox x:Name="txb_EmailOverview1" HorizontalAlignment="Left" Height="33" Margin="80,120,0,0" TextWrapping="Wrap" Text="dewiapril1996@Gmail.com" VerticalAlignment="Top" Width="244" FontSize="16" FontWeight="Bold"/>
+
+                    </Grid>
+                </StackPanel>
+            </GroupBox>
+        </Grid>
 
     </StackPanel>
 </UserControl>

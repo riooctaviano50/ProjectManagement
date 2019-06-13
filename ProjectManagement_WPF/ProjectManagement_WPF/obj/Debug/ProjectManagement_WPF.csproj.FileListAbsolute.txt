@@ -132,3 +132,6 @@ D:\Rio\Tugas WPF\ProjectManagement_WPF\ProjectManagement_WPF\obj\Debug\ProjectMa
 D:\Rio\Tugas WPF\ProjectManagement_WPF\ProjectManagement_WPF\obj\Debug\ProjectManagement_WPF.pdb
 D:\Rio\Tugas WPF\ProjectManagement_WPF\ProjectManagement_WPF\obj\Debug\MenuPM\TabMenuProjectDetailPM\TabTasks.g.cs
 D:\Rio\Tugas WPF\ProjectManagement_WPF\ProjectManagement_WPF\obj\Debug\MenuPM\TabMenuProjectDetailPM\TabTasks.baml
+D:\MII\PROJECT MANAGEMENT\ProjectManagement\ProjectManagement_WPF\ProjectManagement_WPF\obj\Debug\MenuPM\ProjectDetailsPM.g.cs
+D:\MII\PROJECT MANAGEMENT\ProjectManagement\ProjectManagement_WPF\ProjectManagement_WPF\obj\Debug\MenuPM\TaskPM.g.cs
+D:\MII\PROJECT MANAGEMENT\ProjectManagement\ProjectManagement_WPF\ProjectManagement_WPF\obj\Debug\ProjectManager.g.cs

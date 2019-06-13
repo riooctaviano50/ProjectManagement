@@ -78,7 +78,7 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="MenuPM\TabMenuProjectDetailPM\TabTasks.xaml">
+    <Page Include="MenuPM\TabMenuProjectDetailPM\TabProjectDetailMember.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -95,8 +95,8 @@
     <Compile Include="MenuPM\ProjectDetailsPM.xaml.cs">
       <DependentUpon>ProjectDetailsPM.xaml</DependentUpon>
     </Compile>
-    <Compile Include="MenuPM\TabMenuProjectDetailPM\TabTasks.xaml.cs">
-      <DependentUpon>TabTasks.xaml</DependentUpon>
+    <Compile Include="MenuPM\TabMenuProjectDetailPM\TabProjectDetailMember.xaml.cs">
+      <DependentUpon>TabProjectDetailMember.xaml</DependentUpon>
     </Compile>
     <Compile Include="MenuPM\TaskPM.xaml.cs">
       <DependentUpon>TaskPM.xaml</DependentUpon>
