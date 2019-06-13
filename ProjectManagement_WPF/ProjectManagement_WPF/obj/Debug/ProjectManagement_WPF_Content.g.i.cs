@@ -8,6 +8,12 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("images/logo%20mii.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/checklist.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/checklist2.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/checklist3.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/checklist4.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/task.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/task2.png")]
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("assets/timer.png")]
 
 

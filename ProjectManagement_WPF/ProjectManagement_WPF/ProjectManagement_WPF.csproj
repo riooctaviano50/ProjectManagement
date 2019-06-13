@@ -74,10 +74,32 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="MenuPM\ProjectDetailsPM.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MenuPM\TabMenuProjectDetailPM\TabTasks.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MenuPM\TaskPM.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ProjectManager.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Login.xaml.cs">
-      <DependentUpon>Login.xaml</DependentUpon>
+    <Compile Include="MenuPM\ProjectDetailsPM.xaml.cs">
+      <DependentUpon>ProjectDetailsPM.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MenuPM\TabMenuProjectDetailPM\TabTasks.xaml.cs">
+      <DependentUpon>TabTasks.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MenuPM\TaskPM.xaml.cs">
+      <DependentUpon>TaskPM.xaml</DependentUpon>
     </Compile>
     <Compile Include="ProjectManager.xaml.cs">
       <DependentUpon>ProjectManager.xaml</DependentUpon>
@@ -109,27 +131,16 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="images\logo MII.png" />
+    <Folder Include="MenuMember\" />
   </ItemGroup>
   <ItemGroup>
-    <Page Include="Login.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="ProjectManager.xaml">
-      <Generator>MSBuild:Compile</Generator>
-      <SubType>Designer</SubType>
-    </Page>
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\BussinessLogic\BussinessLogic.csproj">
-      <Project>{7F58C903-AA4D-4638-854E-B07C522B0303}</Project>
-      <Name>BussinessLogic</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\DataAccess\DataAccess.csproj">
-      <Project>{618889DE-74C9-4FB0-8B04-6C5CC6B00441}</Project>
-      <Name>DataAccess</Name>
-    </ProjectReference>
+    <Resource Include="Assets\checklist.png" />
+    <Resource Include="Assets\checklist2.png" />
+    <Resource Include="Assets\checklist3.png" />
+    <Resource Include="Assets\checklist4.png" />
+    <Resource Include="Assets\task.png" />
+    <Resource Include="Assets\task2.png" />
+    <Resource Include="Assets\timer.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

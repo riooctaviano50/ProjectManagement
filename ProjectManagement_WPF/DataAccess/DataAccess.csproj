@@ -51,10 +51,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Context\MyContext.cs" />
-    <Compile Include="Migrations\201906120831492_Addingfixdatabase.cs" />
-    <Compile Include="Migrations\201906120831492_Addingfixdatabase.Designer.cs">
-      <DependentUpon>201906120831492_Addingfixdatabase.cs</DependentUpon>
-    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Employee.cs" />
     <Compile Include="Models\Project.cs" />
@@ -84,11 +80,6 @@
       <Project>{4740C14A-290C-4971-95DD-78BD1F485BF2}</Project>
       <Name>Core</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Migrations\201906120831492_Addingfixdatabase.resx">
-      <DependentUpon>201906120831492_Addingfixdatabase.cs</DependentUpon>
-    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
