@@ -1,5 +1,6 @@
 ﻿using BussinessLogic.Service;
 using BussinessLogic.Service.Application;
+using Common.Repository.Application;
 using DataAccess.Context;
 using DataAccess.ViewModels;
 using System;
@@ -23,39 +24,42 @@ namespace ProjectManagement_WPF
     /// </summary>
     public partial class Login : Window
     {
-        ILoginService iLoginService = new LoginService();
-        EmployeeVM emplpoyeeVM = new EmployeeVM();
         MyContext myContext = new MyContext();
 
         public Login()
         {
             InitializeComponent();
-            Init_Data();
         }
-
-        private void Init_Data()
-        {
-            throw new NotImplementedException();
-        }
+        
 
         private void btn_SignIn_Click(object sender, RoutedEventArgs e)
         {
-            string email = txb_email.Text;
-            string password = passwordBox.Password;
+            SetLogin();            
+        }
 
-            var get = myContext.Employees.Where
-            (x => (x.Email.Contains(email) &&
-            x.Password.Contains(password))).SingleOrDefault();
-            int count = Convert.ToInt32(myContext.GetValidationErrors());
-            if (count == 1)
+        private void SetLogin()
+        {
+            LoginRepository loginRepository = new LoginRepository();
+            if (loginRepository.CheckLogin(txb_email.Text, passwordBox.Password) == true)
             {
-                
+                this.Hide();
+                if (loginRepository.CheckAdmin(txb_email.Text, passwordBox.Password) == true)
+                {
+                    ProjectManager projectManager = new ProjectManager();
+                    projectManager.Show();
+                }
+                else
+                {
+                    DashboardMember dashboardMember = new DashboardMember();
+                    dashboardMember.Show();
+                }
             }
             else
             {
-                MessageBox.Show("Email or Password is Correct");
+                MessageBox.Show("Login Failed", "Warning!", MessageBoxButton.OK, MessageBoxImage.Information);
+                passwordBox.Clear();
+                passwordBox.Focus();
             }
-            
         }
     }
 }

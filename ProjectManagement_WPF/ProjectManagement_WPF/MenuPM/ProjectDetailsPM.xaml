@@ -61,7 +61,6 @@
                         <TextBox x:Name="txb_EmailOverview" HorizontalAlignment="Left" Height="33" Margin="80,60,0,0" TextWrapping="Wrap" Text="dewiapril1996@Gmail.com" VerticalAlignment="Top" Width="244" FontSize="16" FontWeight="Bold"/>
                         <TextBox x:Name="txb_NameOverview1" HorizontalAlignment="Left" Height="33" Margin="80,90,0,0" TextWrapping="Wrap" Text="Dewi Aprliani" VerticalAlignment="Top" Width="120" FontSize="16" FontWeight="Bold"/>
                         <TextBox x:Name="txb_EmailOverview1" HorizontalAlignment="Left" Height="33" Margin="80,120,0,0" TextWrapping="Wrap" Text="dewiapril1996@Gmail.com" VerticalAlignment="Top" Width="244" FontSize="16" FontWeight="Bold"/>
-
                     </Grid>
                 </StackPanel>
             </GroupBox>

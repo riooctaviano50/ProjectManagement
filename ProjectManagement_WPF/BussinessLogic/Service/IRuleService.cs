@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace BussinessLogic.Service
 {
-    interface IRuleService
+   public interface IRuleService
     {
         List<Rule> Get();
         List<Rule> GetSearch(string Values);

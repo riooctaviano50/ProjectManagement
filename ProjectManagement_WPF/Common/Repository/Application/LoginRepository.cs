@@ -10,17 +10,56 @@ using DataAccess.Context;
 
 namespace Common.Repository.Application
 {
-    public class LoginRepository : ILoginRepository
+    public class LoginRepository
     {
         MyContext myContext = new MyContext();
 
-        public Employee GetLogin(string email, string password)
+        public bool CheckLogin(string email, string password)
         {
-            var get = myContext.Employees.Where
-            (x => (x.Email.Contains(email) ||
-             x.Password.Contains(password)) &&
-             x.IsDelete == false).SingleOrDefault();
-            return get;
+            bool status = false;
+            var get = myContext.Employees.Where(x => x.Email == email && x.Password == password && x.IsDelete == false).SingleOrDefault();
+
+            try
+            {
+                if(get.Email == email && get.Password == password && get.IsDelete == false)
+                {
+                    status = true;
+                    return status;
+                }
+                else
+                {
+                    return status;
+                }
+            }
+            catch (Exception e)
+            {
+                e.GetBaseException();
+                return status;
+            }
+        }
+
+        public bool CheckAdmin(string email, string password)
+        {
+            bool status = false;
+            var get = myContext.Employees.Where(x => x.Email == email && x.Password == password && x.IsDelete == false).SingleOrDefault();
+
+            try
+            {
+                if (get.Email == email && get.Password == password && get.IsDelete == false && get.Rules_Id == 1)
+                {
+                    status = true;
+                    return status;
+                }
+                else
+                {
+                    return status;
+                }
+            }
+            catch (Exception e)
+            {
+                e.GetBaseException();
+                return status;
+            }
         }
     }
 }

@@ -1,3 +1,16 @@
-D:\MII\PROJECT MANAGEMENT\ProjectManagement\ProjectManagement_WPF\Common\obj\Debug\Common.csprojResolveAssemblyReference.cache
 D:\Rio\Tugas WPF\ProjectManagement\Project Management WPF\ProjectManagement_WPF\Common\obj\Debug\Common.csprojAssemblyReference.cache
 D:\Rio\Tugas WPF\ProjectManagement\Project Management WPF\ProjectManagement_WPF\Common\obj\Debug\Common.csproj.CoreCompileInputs.cache
+D:\MII\PROJECT MANAGEMENT\ProjectManagement\ProjectManagement_WPF\Common\bin\Debug\Common.exe.config
+D:\MII\PROJECT MANAGEMENT\ProjectManagement\ProjectManagement_WPF\Common\bin\Debug\Common.exe
+D:\MII\PROJECT MANAGEMENT\ProjectManagement\ProjectManagement_WPF\Common\bin\Debug\Common.pdb
+D:\MII\PROJECT MANAGEMENT\ProjectManagement\ProjectManagement_WPF\Common\bin\Debug\Core.exe
+D:\MII\PROJECT MANAGEMENT\ProjectManagement\ProjectManagement_WPF\Common\bin\Debug\DataAccess.exe
+D:\MII\PROJECT MANAGEMENT\ProjectManagement\ProjectManagement_WPF\Common\bin\Debug\EntityFramework.dll
+D:\MII\PROJECT MANAGEMENT\ProjectManagement\ProjectManagement_WPF\Common\bin\Debug\EntityFramework.SqlServer.dll
+D:\MII\PROJECT MANAGEMENT\ProjectManagement\ProjectManagement_WPF\Common\bin\Debug\Core.pdb
+D:\MII\PROJECT MANAGEMENT\ProjectManagement\ProjectManagement_WPF\Common\bin\Debug\DataAccess.pdb
+D:\MII\PROJECT MANAGEMENT\ProjectManagement\ProjectManagement_WPF\Common\bin\Debug\EntityFramework.xml
+D:\MII\PROJECT MANAGEMENT\ProjectManagement\ProjectManagement_WPF\Common\bin\Debug\EntityFramework.SqlServer.xml
+D:\MII\PROJECT MANAGEMENT\ProjectManagement\ProjectManagement_WPF\Common\obj\Debug\Common.csprojResolveAssemblyReference.cache
+D:\MII\PROJECT MANAGEMENT\ProjectManagement\ProjectManagement_WPF\Common\obj\Debug\Common.exe
+D:\MII\PROJECT MANAGEMENT\ProjectManagement\ProjectManagement_WPF\Common\obj\Debug\Common.pdb
